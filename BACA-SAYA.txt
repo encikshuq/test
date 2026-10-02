@@ -1,0 +1,22 @@
+PANDUAN PEMASANGAN LAMAN WEB
+v1
+
+Kandungan pakej
+- index.html        : Home (draf)
+- images/           : semua gambar yang digunakan
+
+Laman ini menukar susun atur secara automatik untuk telefon (skrin 767px ke bawah) dan desktop.
+
+Cara 1: Hosting cPanel
+1. Log masuk ke cPanel dan buka File Manager.
+2. Masuk ke folder public_html.
+3. Muat naik index.html dan folder images (atau muat naik ZIP ini dan pilih Extract).
+
+Cara 2: Cloudflare Pages / Netlify
+1. Cipta projek baharu dan pilih muat naik terus (direct upload).
+2. Seret folder yang mengandungi index.html dan images.
+
+Cara 3: WordPress, Elementor, Wix
+Minta kod embed daripada pereka, kemudian tampal dalam blok "Custom HTML".
+
+Jangan ubah nama folder images atau nama fail gambar, supaya gambar kekal dipaparkan.
