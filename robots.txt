@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /jjt-panel/
+Disallow: /api/
+Disallow: /install.php
+
+Sitemap: https://jalantravel.com/sitemap.xml

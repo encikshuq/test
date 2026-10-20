@@ -1,0 +1,864 @@
+{
+ "pakej": {
+  "jepun-series-golden-route": [
+   [
+    "Kuil Senso-ji, Asakusa",
+    "1542090518-6c4131442225"
+   ],
+   [
+    "Persimpangan Shibuya",
+    "1542051841857-5f90071e7989"
+   ],
+   [
+    "Pagoda Chureito & Gunung Fuji",
+    "1528164344705-47542687000d"
+   ],
+   [
+    "Istana Nagoya",
+    "1747546314703-6c4fc20c5a37"
+   ],
+   [
+    "Kuil Fushimi Inari",
+    "1613487691352-7d9b4ee5045b"
+   ],
+   [
+    "Hutan Buluh Arashiyama",
+    "1632923754832-60642c12a7ed"
+   ],
+   [
+    "Taman Rusa Nara",
+    "1693380767492-00fb0bcc4ce6"
+   ],
+   [
+    "Istana Osaka",
+    "1596240748549-6ec0f32d4c95"
+   ],
+   [
+    "Shinsaibashi & Dotonbori",
+    "1546142711-1e28c0540deb"
+   ]
+  ],
+  "jepun-honeymoon-hakone": [
+   [
+    "Tasik Ashi, Hakone",
+    "1560863244-387447ab62c4"
+   ],
+   [
+    "Gunung Fuji",
+    "1526481280693-3bfa7568e0f3"
+   ],
+   [
+    "Pagoda Chureito",
+    "1528164344705-47542687000d"
+   ],
+   [
+    "Kuil Senso-ji, Asakusa",
+    "1542090518-6c4131442225"
+   ],
+   [
+    "Persimpangan Shibuya",
+    "1542051841857-5f90071e7989"
+   ]
+  ],
+  "jepun-adventure-hokkaido": [
+   [
+    "Bandar Sapporo musim salji",
+    "1673751178091-9eb8d9fcfb43"
+   ],
+   [
+    "Terusan Otaru",
+    "1563282870-e9e8d69c4271"
+   ],
+   [
+    "Ladang Bunga Furano",
+    "1787977614953-3cee8a882c97"
+   ],
+   [
+    "Main ski di Niseko",
+    "1708115106914-65655e8414da"
+   ]
+  ],
+  "korea-private-seoul-jeju": [
+   [
+    "Istana Gyeongbokgung",
+    "1638964663550-e2123ac8900b"
+   ],
+   [
+    "Menara N Seoul",
+    "1685761341534-b155d516eb80"
+   ],
+   [
+    "Kampung Hanok Bukchon",
+    "1535189043414-47a3c49a0bed"
+   ],
+   [
+    "Pulau Nami",
+    "1599025847646-58d2a1808824"
+   ],
+   [
+    "Seongsan Ilchulbong, Jeju",
+    "1616798249081-30877e213b16"
+   ]
+  ],
+  "korea-series-autumn": [
+   [
+    "Istana Gyeongbokgung",
+    "1638964663550-e2123ac8900b"
+   ],
+   [
+    "Menara N Seoul",
+    "1685761341534-b155d516eb80"
+   ],
+   [
+    "Kampung Hanok Bukchon",
+    "1535189043414-47a3c49a0bed"
+   ],
+   [
+    "Pulau Nami",
+    "1599025847646-58d2a1808824"
+   ],
+   [
+    "Taman Tema Everland",
+    "1578648086858-b173df4fd0c0"
+   ]
+  ],
+  "china-adventure-zhangjiajie": [
+   [
+    "Jambatan Kaca Zhangjiajie",
+    "1743093263638-845bee7205c0"
+   ],
+   [
+    "Jalan 99 Selekoh, Gunung Tianmen",
+    "1689519652654-10777ce4bde2"
+   ],
+   [
+    "Bandar Purba Fenghuang",
+    "1703739749735-322991b9768b"
+   ]
+  ],
+  "china-series-xian-beijing": [
+   [
+    "Tembok Besar China",
+    "1608037521277-154cd1b89191"
+   ],
+   [
+    "Kota Larangan, Beijing",
+    "1614555383820-941c466f1b52"
+   ],
+   [
+    "Askar Terakota, Xi’an",
+    "1527922891260-918d42a4efc8"
+   ],
+   [
+    "Tembok Kota Purba Xi’an",
+    "1725933014999-e70ae6e57375"
+   ]
+  ],
+  "asia-tengah-series-4tan": [
+   [
+    "Registan, Samarkand",
+    "1715540335640-d9e2c7e60aaf"
+   ],
+   [
+    "Menara Kalyan, Bukhara",
+    "1601963251218-816ff32e2baf"
+   ],
+   [
+    "Masjid di Tashkent",
+    "1655191290990-0f2fc3921c96"
+   ],
+   [
+    "Tasik pergunungan Almaty",
+    "1752583649371-8e8c3bfa38ab"
+   ],
+   [
+    "Pergunungan Kyrgyzstan",
+    "1700321942503-1c66858a8737"
+   ],
+   [
+    "Bandar Dushanbe",
+    "1707663154646-06390356b683"
+   ]
+  ],
+  "asia-tengah-private-uzbek": [
+   [
+    "Masjid di Tashkent",
+    "1655191290990-0f2fc3921c96"
+   ],
+   [
+    "Registan, Samarkand",
+    "1715540335640-d9e2c7e60aaf"
+   ],
+   [
+    "Menara Kalyan, Bukhara",
+    "1601963251218-816ff32e2baf"
+   ],
+   [
+    "Kota Lama Itchan Kala, Khiva",
+    "1557841621-230db92a8a12"
+   ]
+  ],
+  "trans-siberia-adventure": [
+   [
+    "Katedral St. Basil, Moscow",
+    "1596484552834-6a58f850e0a1"
+   ],
+   [
+    "Kremlin Moscow",
+    "1652342532673-59a848be8a0a"
+   ],
+   [
+    "Masjid Kul Sharif, Kazan",
+    "1597258071486-bc1754c01349"
+   ],
+   [
+    "Bandar Yekaterinburg",
+    "1764470740053-9aca140137ad"
+   ],
+   [
+    "Kereta api Trans-Siberia",
+    "1572803090936-72796aef96a2"
+   ],
+   [
+    "Sungai Angara, Irkutsk",
+    "1645886113555-1fba484d4034"
+   ]
+  ],
+  "baikal-adventure-ice": [
+   [
+    "Tasik Baikal beku",
+    "1617835594990-7cd5a9b5d153"
+   ],
+   [
+    "Batu Shaman, Pulau Olkhon",
+    "1579524948985-4d2797bd2b58"
+   ],
+   [
+    "Sungai Angara, Irkutsk",
+    "1645886113555-1fba484d4034"
+   ],
+   [
+    "Kremlin Moscow",
+    "1652342532673-59a848be8a0a"
+   ]
+  ],
+  "baikal-private-moscow": [
+   [
+    "Katedral St. Basil, Moscow",
+    "1596484552834-6a58f850e0a1"
+   ],
+   [
+    "Kremlin Moscow",
+    "1652342532673-59a848be8a0a"
+   ],
+   [
+    "Sungai Angara, Irkutsk",
+    "1645886113555-1fba484d4034"
+   ],
+   [
+    "Tasik Baikal",
+    "1617835594990-7cd5a9b5d153"
+   ]
+  ],
+  "eropah-series-3negara": [
+   [
+    "Menara Eiffel, Paris",
+    "1502602898657-3e91760cbb34"
+   ],
+   [
+    "Jambatan Kapel, Lucerne",
+    "1658093271921-199c7a03edc6"
+   ],
+   [
+    "Jungfrau, Interlaken",
+    "1628239019751-ca690c91040b"
+   ],
+   [
+    "Katedral Duomo, Milan",
+    "1610016302534-6f67f1c968d8"
+   ],
+   [
+    "Terusan Venice",
+    "1519112232436-9923c6ba3d26"
+   ]
+  ],
+  "eropah-honeymoon-swiss": [
+   [
+    "Bandar lama Zurich",
+    "1643981670720-eef07ebdb179"
+   ],
+   [
+    "Jambatan Kapel, Lucerne",
+    "1658093271921-199c7a03edc6"
+   ],
+   [
+    "Jungfrau, Interlaken",
+    "1628239019751-ca690c91040b"
+   ],
+   [
+    "Matterhorn, Zermatt",
+    "1595090947130-23c5948a2993"
+   ]
+  ],
+  "machu-picchu-adventure": [
+   [
+    "Machu Picchu",
+    "1587595431973-160d0d94add1"
+   ],
+   [
+    "Plaza de Armas, Cusco",
+    "1592602228110-2a482b293e42"
+   ],
+   [
+    "Lembah Suci (Sacred Valley)",
+    "1568729670692-0d2de9a3c027"
+   ],
+   [
+    "Gunung Pelangi Vinicunca",
+    "1545330785-15356daae141"
+   ],
+   [
+    "Pesisir Miraflores, Lima",
+    "1660520086747-21c320ca73fe"
+   ]
+  ],
+  "amerika-series-pantai-timur": [
+   [
+    "Patung Liberty, New York",
+    "1605130284535-11dd9eedc58a"
+   ],
+   [
+    "Times Square",
+    "1548182880-8b7b2af2caa2"
+   ],
+   [
+    "Central Park",
+    "1568515387631-8b650bbcdb90"
+   ],
+   [
+    "Bandar bersejarah Philadelphia",
+    "1651309097153-2b57609593df"
+   ],
+   [
+    "Capitol, Washington DC",
+    "1581097543550-b3cbe2e6ea6e"
+   ],
+   [
+    "Air Terjun Niagara",
+    "1533094602577-198d3beab8ea"
+   ]
+  ],
+  "alaska-adventure-aurora": [
+   [
+    "Aurora di Fairbanks",
+    "1709339897669-d9ba65f60684"
+   ],
+   [
+    "Taman Negara Denali",
+    "1624469600761-6acd071481d9"
+   ],
+   [
+    "Anchorage",
+    "1549517771-aa105e8da34f"
+   ],
+   [
+    "Glasier Alaska",
+    "1593326101816-dd0c165b3ef1"
+   ],
+   [
+    "Kereta salji anjing",
+    "1648726443201-76c81a2f1858"
+   ]
+  ],
+  "nz-private-utara-selatan": [
+   [
+    "Auckland",
+    "1595125990323-885cec5217ff"
+   ],
+   [
+    "Geoterma Rotorua",
+    "1704584645085-f5518f3473ce"
+   ],
+   [
+    "Hobbiton",
+    "1589688542188-4f1c409c318b"
+   ],
+   [
+    "Queenstown",
+    "1547314283-befb6cc5cf29"
+   ],
+   [
+    "Milford Sound",
+    "1591640040362-f55d95a6b2bc"
+   ]
+  ],
+  "nz-honeymoon": [
+   [
+    "Queenstown",
+    "1547314283-befb6cc5cf29"
+   ],
+   [
+    "Tasik Wanaka",
+    "1445294211564-3ca59d999abd"
+   ],
+   [
+    "Bunga lupin Tasik Tekapo",
+    "1734375181552-cfa83d404033"
+   ],
+   [
+    "Milford Sound",
+    "1591640040362-f55d95a6b2bc"
+   ]
+  ],
+  "australia-private-melbourne": [
+   [
+    "Stesen Flinders Street, Melbourne",
+    "1576058166729-1e22c1d7862b"
+   ],
+   [
+    "Kotak Mandi Brighton",
+    "1575908722665-bc5c3faf192d"
+   ],
+   [
+    "Twelve Apostles, Great Ocean Road",
+    "1596430222039-4a2d7b4cd767"
+   ],
+   [
+    "Penguin Phillip Island",
+    "1724184540484-f2102d308e5a"
+   ]
+  ],
+  "jordan-series-petra": [
+   [
+    "Al-Khazneh, Petra",
+    "1580834341580-8c17a3a630ca"
+   ],
+   [
+    "Gurun Wadi Rum",
+    "1543964198-d54e4f0e44e3"
+   ],
+   [
+    "Laut Mati",
+    "1743943932415-947f79353387"
+   ],
+   [
+    "Citadel Amman",
+    "1607700233797-8b4cdabbc936"
+   ]
+  ],
+  "jordan-private": [
+   [
+    "Al-Khazneh, Petra",
+    "1580834341580-8c17a3a630ca"
+   ],
+   [
+    "Gurun Wadi Rum",
+    "1543964198-d54e4f0e44e3"
+   ],
+   [
+    "Laut Mati",
+    "1743943932415-947f79353387"
+   ],
+   [
+    "Citadel Amman",
+    "1607700233797-8b4cdabbc936"
+   ]
+  ],
+  "mesir-series-nil": [
+   [
+    "Piramid Giza",
+    "1600520611035-84157ad4084d"
+   ],
+   [
+    "Masjid Sultan Hassan & Al-Rifa’i, Kaherah",
+    "1572252009286-268acec5ca0a"
+   ],
+   [
+    "Luxor",
+    "1643806294274-2db9dcbfe7a5"
+   ],
+   [
+    "Felucca di Sungai Nil, Aswan",
+    "1684100096410-fd39cdff91a3"
+   ],
+   [
+    "Kuil Abu Simbel",
+    "1502250493741-939d1c76eaad"
+   ]
+  ],
+  "asean-private-bandung": [
+   [
+    "Kawah Putih",
+    "1684189930003-9434c949925f"
+   ],
+   [
+    "Tangkuban Perahu",
+    "1706456909339-a139c8da0f3e"
+   ],
+   [
+    "Ladang teh Bandung",
+    "1703566454447-b4c5d906e063"
+   ],
+   [
+    "Sawah bertingkat Lembang",
+    "1624033441874-82f56d494d83"
+   ]
+  ],
+  "perhentian-private": [
+   [
+    "Snorkeling bersama penyu",
+    "1437622368342-7a3d73a34c8f"
+   ],
+   [
+    "Senja di pulau",
+    "1632829426073-f12a3b459d35"
+   ]
+  ]
+ },
+ "cuaca": {
+  "jepun": [
+   {
+    "m": "Musim sejuk",
+    "t": "-1°C – 10°C",
+    "b": "Disember – Februari"
+   },
+   {
+    "m": "Musim bunga",
+    "t": "8°C – 20°C",
+    "b": "Mac – Mei"
+   },
+   {
+    "m": "Musim panas",
+    "t": "22°C – 31°C",
+    "b": "Jun – Ogos"
+   },
+   {
+    "m": "Musim luruh",
+    "t": "12°C – 22°C",
+    "b": "September – November"
+   }
+  ],
+  "jepun-hokkaido": [
+   {
+    "m": "Musim sejuk",
+    "t": "-12°C – -2°C",
+    "b": "Disember – Februari"
+   },
+   {
+    "m": "Musim bunga",
+    "t": "0°C – 15°C",
+    "b": "Mac – Mei"
+   },
+   {
+    "m": "Musim panas",
+    "t": "18°C – 27°C",
+    "b": "Jun – Ogos"
+   },
+   {
+    "m": "Musim luruh",
+    "t": "3°C – 17°C",
+    "b": "September – November"
+   }
+  ],
+  "korea": [
+   {
+    "m": "Musim sejuk",
+    "t": "-10°C – 3°C",
+    "b": "Disember – Februari"
+   },
+   {
+    "m": "Musim bunga",
+    "t": "5°C – 18°C",
+    "b": "Mac – Mei"
+   },
+   {
+    "m": "Musim panas",
+    "t": "22°C – 30°C",
+    "b": "Jun – Ogos"
+   },
+   {
+    "m": "Musim luruh",
+    "t": "8°C – 20°C",
+    "b": "September – November"
+   }
+  ],
+  "china": [
+   {
+    "m": "Musim sejuk",
+    "t": "-8°C – 6°C",
+    "b": "Disember – Februari"
+   },
+   {
+    "m": "Musim bunga",
+    "t": "10°C – 22°C",
+    "b": "Mac – Mei"
+   },
+   {
+    "m": "Musim panas",
+    "t": "24°C – 32°C",
+    "b": "Jun – Ogos"
+   },
+   {
+    "m": "Musim luruh",
+    "t": "10°C – 22°C",
+    "b": "September – November"
+   }
+  ],
+  "asia-tengah": [
+   {
+    "m": "Musim sejuk",
+    "t": "-5°C – 6°C",
+    "b": "Disember – Februari"
+   },
+   {
+    "m": "Musim bunga",
+    "t": "10°C – 22°C",
+    "b": "Mac – Mei"
+   },
+   {
+    "m": "Musim panas",
+    "t": "25°C – 38°C",
+    "b": "Jun – Ogos"
+   },
+   {
+    "m": "Musim luruh",
+    "t": "10°C – 22°C",
+    "b": "September – November"
+   }
+  ],
+  "trans-siberia": [
+   {
+    "m": "Musim sejuk",
+    "t": "-25°C – -5°C",
+    "b": "Disember – Februari"
+   },
+   {
+    "m": "Musim bunga",
+    "t": "-2°C – 12°C",
+    "b": "Mac – Mei"
+   },
+   {
+    "m": "Musim panas",
+    "t": "15°C – 25°C",
+    "b": "Jun – Ogos"
+   },
+   {
+    "m": "Musim luruh",
+    "t": "0°C – 12°C",
+    "b": "September – November"
+   }
+  ],
+  "lake-baikal": [
+   {
+    "m": "Musim sejuk",
+    "t": "-25°C – -10°C",
+    "b": "Disember – Februari"
+   },
+   {
+    "m": "Musim bunga",
+    "t": "-5°C – 10°C",
+    "b": "Mac – Mei"
+   },
+   {
+    "m": "Musim panas",
+    "t": "14°C – 24°C",
+    "b": "Jun – Ogos"
+   },
+   {
+    "m": "Musim luruh",
+    "t": "-2°C – 10°C",
+    "b": "September – November"
+   }
+  ],
+  "eropah": [
+   {
+    "m": "Musim sejuk",
+    "t": "-3°C – 6°C",
+    "b": "Disember – Februari"
+   },
+   {
+    "m": "Musim bunga",
+    "t": "6°C – 17°C",
+    "b": "Mac – Mei"
+   },
+   {
+    "m": "Musim panas",
+    "t": "15°C – 27°C",
+    "b": "Jun – Ogos"
+   },
+   {
+    "m": "Musim luruh",
+    "t": "6°C – 16°C",
+    "b": "September – November"
+   }
+  ],
+  "machu-picchu": [
+   {
+    "m": "Musim kering",
+    "t": "0°C – 20°C",
+    "b": "Mei – September"
+   },
+   {
+    "m": "Peralihan",
+    "t": "5°C – 20°C",
+    "b": "April & Oktober"
+   },
+   {
+    "m": "Musim hujan",
+    "t": "7°C – 20°C",
+    "b": "November – Mac"
+   }
+  ],
+  "amerika": [
+   {
+    "m": "Musim sejuk",
+    "t": "-3°C – 5°C",
+    "b": "Disember – Februari"
+   },
+   {
+    "m": "Musim bunga",
+    "t": "7°C – 20°C",
+    "b": "Mac – Mei"
+   },
+   {
+    "m": "Musim panas",
+    "t": "20°C – 30°C",
+    "b": "Jun – Ogos"
+   },
+   {
+    "m": "Musim luruh",
+    "t": "8°C – 20°C",
+    "b": "September – November"
+   }
+  ],
+  "alaska": [
+   {
+    "m": "Musim sejuk (aurora)",
+    "t": "-25°C – -10°C",
+    "b": "November – Mac"
+   },
+   {
+    "m": "Peralihan",
+    "t": "-5°C – 12°C",
+    "b": "April – Mei, September – Oktober"
+   },
+   {
+    "m": "Musim panas",
+    "t": "10°C – 22°C",
+    "b": "Jun – Ogos"
+   }
+  ],
+  "new-zealand": [
+   {
+    "m": "Musim panas",
+    "t": "15°C – 25°C",
+    "b": "Disember – Februari"
+   },
+   {
+    "m": "Musim luruh",
+    "t": "8°C – 18°C",
+    "b": "Mac – Mei"
+   },
+   {
+    "m": "Musim sejuk",
+    "t": "0°C – 10°C",
+    "b": "Jun – Ogos"
+   },
+   {
+    "m": "Musim bunga",
+    "t": "6°C – 16°C",
+    "b": "September – November"
+   }
+  ],
+  "australia": [
+   {
+    "m": "Musim panas",
+    "t": "15°C – 28°C",
+    "b": "Disember – Februari"
+   },
+   {
+    "m": "Musim luruh",
+    "t": "10°C – 20°C",
+    "b": "Mac – Mei"
+   },
+   {
+    "m": "Musim sejuk",
+    "t": "6°C – 14°C",
+    "b": "Jun – Ogos"
+   },
+   {
+    "m": "Musim bunga",
+    "t": "9°C – 20°C",
+    "b": "September – November"
+   }
+  ],
+  "jordan": [
+   {
+    "m": "Musim sejuk",
+    "t": "4°C – 14°C",
+    "b": "Disember – Februari"
+   },
+   {
+    "m": "Musim bunga",
+    "t": "10°C – 24°C",
+    "b": "Mac – Mei"
+   },
+   {
+    "m": "Musim panas",
+    "t": "20°C – 33°C",
+    "b": "Jun – Ogos"
+   },
+   {
+    "m": "Musim luruh",
+    "t": "14°C – 28°C",
+    "b": "September – November"
+   }
+  ],
+  "mesir": [
+   {
+    "m": "Musim sejuk",
+    "t": "9°C – 20°C",
+    "b": "Disember – Februari"
+   },
+   {
+    "m": "Musim bunga",
+    "t": "14°C – 30°C",
+    "b": "Mac – Mei"
+   },
+   {
+    "m": "Musim panas",
+    "t": "22°C – 35°C",
+    "b": "Jun – Ogos"
+   },
+   {
+    "m": "Musim luruh",
+    "t": "18°C – 32°C",
+    "b": "September – November"
+   }
+  ],
+  "asean": [
+   {
+    "m": "Musim kemarau",
+    "t": "18°C – 28°C",
+    "b": "April – Oktober"
+   },
+   {
+    "m": "Musim hujan",
+    "t": "18°C – 27°C",
+    "b": "November – Mac"
+   }
+  ],
+  "perhentian": [
+   {
+    "m": "Musim pelancongan",
+    "t": "26°C – 32°C",
+    "b": "Mac – Oktober"
+   },
+   {
+    "m": "Monsun Timur Laut",
+    "t": "24°C – 29°C",
+    "b": "November – Februari (kebanyakan resort tutup)"
+   }
+  ]
+ }
+}

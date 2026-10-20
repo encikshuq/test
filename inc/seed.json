@@ -1,0 +1,3488 @@
+{
+ "jenis": [
+  {
+   "id": "private",
+   "nama": "Private Trip",
+   "ikon": "t-private",
+   "ringkas": "Trip sendiri, geng sendiri. Lagi best!"
+  },
+  {
+   "id": "series",
+   "nama": "Series Trip",
+   "ikon": "t-series",
+   "ringkas": "Jom explore destinasi luar biasa sama-sama!"
+  },
+  {
+   "id": "honeymoon",
+   "nama": "Honeymoon Trip",
+   "ikon": "t-heart",
+   "ikonKecil": "heart",
+   "ringkas": "Cipta kenangan manis berdua di destinasi impian."
+  },
+  {
+   "id": "adventure",
+   "nama": "Adventure Trip",
+   "ikon": "t-mount",
+   "ringkas": "Lebih cabaran, lebih pengalaman, lebih banyak kenangan!"
+  }
+ ],
+ "kawasan": [
+  {
+   "id": "asia",
+   "nama": "Asia"
+  },
+  {
+   "id": "asia-tengah",
+   "nama": "Asia Tengah"
+  },
+  {
+   "id": "eropah",
+   "nama": "Eropah & Rusia"
+  },
+  {
+   "id": "amerika",
+   "nama": "Amerika"
+  },
+  {
+   "id": "oseania",
+   "nama": "Oseania"
+  },
+  {
+   "id": "timur-tengah",
+   "nama": "Timur Tengah & Afrika"
+  },
+  {
+   "id": "malaysia",
+   "nama": "Malaysia"
+  }
+ ],
+ "destinasi": [
+  {
+   "id": "jepun",
+   "nama": "Jepun",
+   "kawasan": "asia",
+   "img": "images/jepun.jpg",
+   "musim": "Mac–Mei, Okt–Nov",
+   "matawang": "Yen (JPY)",
+   "terbang": "± 7 jam",
+   "visa": "Bebas visa (pasport MY)",
+   "intro": "Gunung Fuji, sakura dan bandar moden yang tersusun. Makanan halal kini semakin mudah dan banyak surau di lokasi pelancongan utama."
+  },
+  {
+   "id": "korea",
+   "nama": "Korea Selatan",
+   "kawasan": "asia",
+   "img": null,
+   "musim": "Apr–Mei, Sep–Nov",
+   "matawang": "Won (KRW)",
+   "terbang": "± 6 jam",
+   "visa": "K-ETA diperlukan",
+   "intro": "Seoul, Nami Island dan Jeju — budaya K-pop, musim luruh yang berwarna dan restoran halal di Itaewon."
+  },
+  {
+   "id": "china",
+   "nama": "China",
+   "kawasan": "asia",
+   "img": null,
+   "musim": "Apr–Jun, Sep–Okt",
+   "matawang": "Yuan (CNY)",
+   "terbang": "± 5 jam",
+   "visa": "Bebas visa (tempoh terhad)",
+   "intro": "Dari Tembok Besar ke Zhangjiajie, serta komuniti Muslim Hui dengan masjid bersejarah di Xi’an."
+  },
+  {
+   "id": "asia-tengah",
+   "nama": "Negara-negara Asia Tengah (4 Tan)",
+   "pendek": "Asia Tengah (4 Tan)",
+   "kawasan": "asia-tengah",
+   "img": "images/asia-tengah.jpg",
+   "musim": "Apr–Jun, Sep–Okt",
+   "matawang": "Pelbagai",
+   "terbang": "± 9 jam",
+   "visa": "Bergantung negara",
+   "intro": "Uzbekistan, Kazakhstan, Kyrgyzstan & Tajikistan — jejak Laluan Sutera, Bukhara dan Samarkand."
+  },
+  {
+   "id": "trans-siberia",
+   "nama": "Trans-Siberia",
+   "kawasan": "eropah",
+   "img": "images/trans-siberia.jpg",
+   "musim": "Jun–Sep",
+   "matawang": "Ruble (RUB)",
+   "terbang": "± 11 jam",
+   "visa": "e-Visa Rusia",
+   "intro": "Perjalanan kereta api legenda merentasi Siberia, tasik, hutan taiga dan bandar-bandar bersejarah."
+  },
+  {
+   "id": "lake-baikal",
+   "nama": "Rusia & Lake Baikal",
+   "pendek": "Rusia & Baikal",
+   "kawasan": "eropah",
+   "img": "images/lake-baikal.jpg",
+   "musim": "Feb–Mac (ais), Jul–Ogos",
+   "matawang": "Ruble (RUB)",
+   "terbang": "± 11 jam",
+   "visa": "e-Visa Rusia",
+   "intro": "Tasik paling dalam di dunia — ais biru jernih pada musim sejuk dan pemandangan memukau."
+  },
+  {
+   "id": "eropah",
+   "nama": "Eropah",
+   "kawasan": "eropah",
+   "img": null,
+   "musim": "Apr–Jun, Sep–Okt",
+   "matawang": "Euro (EUR)",
+   "terbang": "± 13 jam",
+   "visa": "Bebas visa Schengen (90 hari)",
+   "intro": "Paris, Swiss dan Itali dalam satu perjalanan — dengan masa yang cukup untuk menikmati setiap bandar."
+  },
+  {
+   "id": "machu-picchu",
+   "nama": "Amerika Selatan & Machu Picchu",
+   "pendek": "Machu Picchu",
+   "kawasan": "amerika",
+   "img": "images/machu-picchu.jpg",
+   "musim": "Mei–Sep",
+   "matawang": "Sol (PEN)",
+   "terbang": "± 30 jam",
+   "visa": "Bergantung negara",
+   "intro": "Kota Inca di puncak Andes, Cusco dan Lembah Suci — impian setiap pengembara."
+  },
+  {
+   "id": "amerika",
+   "nama": "Amerika Syarikat",
+   "kawasan": "amerika",
+   "img": "images/amerika.jpg",
+   "musim": "Apr–Jun, Sep–Nov",
+   "matawang": "Dolar (USD)",
+   "terbang": "± 20 jam",
+   "visa": "Visa B1/B2",
+   "intro": "New York, Washington dan Air Terjun Niagara — bandar ikonik dengan pilihan makanan halal yang luas."
+  },
+  {
+   "id": "alaska",
+   "nama": "Alaska",
+   "kawasan": "amerika",
+   "img": "images/alaska.jpg",
+   "musim": "Jun–Ogos, Feb–Mac (aurora)",
+   "matawang": "Dolar (USD)",
+   "terbang": "± 24 jam",
+   "visa": "Visa B1/B2",
+   "intro": "Glasier, taman negara dan aurora borealis — alam semula jadi yang masih liar."
+  },
+  {
+   "id": "new-zealand",
+   "nama": "Auckland & New Zealand",
+   "pendek": "New Zealand",
+   "kawasan": "oseania",
+   "img": "images/new-zealand.jpg",
+   "musim": "Dis–Mac, Sep–Nov",
+   "matawang": "Dolar NZ (NZD)",
+   "terbang": "± 10 jam",
+   "visa": "NZeTA diperlukan",
+   "intro": "Auckland, Rotorua, Queenstown — tasik biru, gunung dan pengembaraan luar."
+  },
+  {
+   "id": "australia",
+   "nama": "Australia",
+   "kawasan": "oseania",
+   "img": null,
+   "musim": "Sep–Nov, Mac–Mei",
+   "matawang": "Dolar AU (AUD)",
+   "terbang": "± 8 jam",
+   "visa": "eVisitor",
+   "intro": "Melbourne, Great Ocean Road dan Sydney — bandar mesra keluarga dengan banyak pilihan halal."
+  },
+  {
+   "id": "jordan",
+   "nama": "Jordan",
+   "kawasan": "timur-tengah",
+   "img": "images/jordan.jpg",
+   "musim": "Mac–Mei, Sep–Nov",
+   "matawang": "Dinar (JOD)",
+   "terbang": "± 11 jam",
+   "visa": "Visa ketibaan / Jordan Pass",
+   "intro": "Petra, Wadi Rum dan Laut Mati — serta ziarah makam para sahabat dan anbiya."
+  },
+  {
+   "id": "mesir",
+   "nama": "Mesir",
+   "kawasan": "timur-tengah",
+   "img": "images/mesir.jpg",
+   "musim": "Okt–Apr",
+   "matawang": "Paun (EGP)",
+   "terbang": "± 12 jam",
+   "visa": "e-Visa Mesir",
+   "intro": "Piramid Giza, Sungai Nil dan Kaherah Islam — sejarah ribuan tahun dalam satu perjalanan."
+  },
+  {
+   "id": "asean",
+   "nama": "Asean",
+   "kawasan": "asia",
+   "img": null,
+   "musim": "Sepanjang tahun",
+   "matawang": "Pelbagai",
+   "terbang": "± 1–3 jam",
+   "visa": "Bebas visa",
+   "intro": "Bandung, Bangkok, Hanoi & Bali — percutian dekat yang menjimatkan untuk keluarga."
+  },
+  {
+   "id": "perhentian",
+   "nama": "Pulau Perhentian",
+   "kawasan": "malaysia",
+   "img": null,
+   "musim": "Mac–Okt",
+   "matawang": "Ringgit (MYR)",
+   "terbang": "Bot dari Kuala Besut",
+   "visa": "—",
+   "intro": "Air laut jernih, snorkeling dan pantai pasir putih — percutian santai dalam negara."
+  }
+ ],
+ "pakej": [
+  {
+   "id": "jepun-private-tokyo-osaka",
+   "dest": "jepun",
+   "jenis": "private",
+   "nama": "Tokyo – Fuji – Osaka",
+   "hari": 7,
+   "malam": 5,
+   "harga": 8990,
+   "hotel": "Hotel 4★",
+   "kumpulan": "2 – 12 orang",
+   "badge": "Popular",
+   "laluan": [
+    "Tokyo",
+    "Kawaguchiko",
+    "Kyoto",
+    "Osaka"
+   ],
+   "tarikh": "fleksibel",
+   "sorotan": [
+    "Pemandangan Gunung Fuji dari Kawaguchiko",
+    "Naik Shinkansen ke Kyoto",
+    "Kuil Fushimi Inari & Arashiyama",
+    "Makan malam Wagyu halal di Osaka"
+   ],
+   "itinerari": [
+    {
+     "tajuk": "Berlepas dari KLIA → Tokyo",
+     "aktiviti": [
+      "Berkumpul di KLIA, taklimat ringkas",
+      "Penerbangan ke Tokyo (Haneda)",
+      "Pemindahan ke hotel & rehat"
+     ],
+     "makan": "M"
+    },
+    {
+     "tajuk": "Tokyo — Asakusa & Shibuya",
+     "aktiviti": [
+      "Kuil Senso-ji & jalan Nakamise",
+      "Solat Jumaat/Zohor di Masjid Tokyo Camii",
+      "Shibuya Crossing & Harajuku"
+     ],
+     "makan": "S,T,M"
+    },
+    {
+     "tajuk": "Tokyo → Kawaguchiko (Gunung Fuji)",
+     "aktiviti": [
+      "Perjalanan ke Kawaguchiko",
+      "Chureito Pagoda & pemandangan Fuji",
+      "Oshino Hakkai — kampung tradisional"
+     ],
+     "makan": "S,T,M"
+    },
+    {
+     "tajuk": "Fuji → Kyoto (Shinkansen)",
+     "aktiviti": [
+      "Shinkansen ke Kyoto",
+      "Kuil Fushimi Inari (seribu torii)",
+      "Bersiar di daerah Gion"
+     ],
+     "makan": "S,T,M"
+    },
+    {
+     "tajuk": "Kyoto — Arashiyama",
+     "aktiviti": [
+      "Hutan buluh Arashiyama",
+      "Kuil Kinkaku-ji (Pavilion Emas)",
+      "Perjalanan ke Osaka"
+     ],
+     "makan": "S,T,M"
+    },
+    {
+     "tajuk": "Osaka — Istana & Dotonbori",
+     "aktiviti": [
+      "Istana Osaka",
+      "Masa bebas membeli-belah di Shinsaibashi",
+      "Makan malam Wagyu halal di Dotonbori"
+     ],
+     "makan": "S,T,M"
+    },
+    {
+     "tajuk": "Osaka → KLIA",
+     "aktiviti": [
+      "Daftar keluar hotel",
+      "Pemindahan ke Lapangan Terbang Kansai",
+      "Tiba di KLIA"
+     ],
+     "makan": "S"
+    }
+   ],
+   "termasuk": [
+    "Tiket penerbangan pergi-balik (kelas ekonomi)",
+    "Penginapan hotel (bilik berkongsi)",
+    "Makan halal seperti dalam itinerari",
+    "Pengangkutan persendirian sepanjang lawatan",
+    "Tour leader Muslim dari Malaysia",
+    "Tiket masuk lokasi dalam itinerari",
+    "Insurans perjalanan asas"
+   ],
+   "tidak": [
+    "Yuran visa (jika berkenaan)",
+    "Tip pemandu & pemandu pelancong tempatan",
+    "Lebihan bagasi",
+    "Perbelanjaan peribadi",
+    "Aktiviti pilihan di luar itinerari"
+   ],
+   "nota": [
+    "Pasport mesti sah sekurang-kurangnya 6 bulan dari tarikh berlepas.",
+    "Itinerari boleh berubah mengikut cuaca dan keadaan semasa.",
+    "Harga tertakluk kepada perubahan kadar tukaran wang dan cukai lapangan terbang."
+   ]
+  },
+  {
+   "id": "jepun-series-golden-route",
+   "dest": "jepun",
+   "jenis": "series",
+   "nama": "Golden Route Jepun",
+   "hari": 8,
+   "malam": 6,
+   "harga": 7290,
+   "hotel": "Hotel 3–4★",
+   "kumpulan": "Maks. 25 orang",
+   "badge": "Tarikh Tetap",
+   "laluan": [
+    "Tokyo",
+    "Fuji",
+    "Nagoya",
+    "Kyoto",
+    "Osaka"
+   ],
+   "tarikh": [
+    {
+     "t": "2026-11-08",
+     "s": "tersedia",
+     "k": 12
+    },
+    {
+     "t": "2026-11-22",
+     "s": "hampir",
+     "k": 4
+    },
+    {
+     "t": "2027-03-27",
+     "s": "tersedia",
+     "k": 20
+    },
+    {
+     "t": "2027-04-03",
+     "s": "penuh",
+     "k": 0
+    }
+   ],
+   "sorotan": [
+    "Musim sakura / musim luruh",
+    "Tour leader Muslim sepanjang trip",
+    "Kumpulan sehati sejiwa",
+    "Harga lebih jimat"
+   ],
+   "itinerari": [
+    {
+     "tajuk": "Berlepas dari KLIA",
+     "aktiviti": [
+      "Berkumpul di KLIA 3 jam sebelum penerbangan",
+      "Taklimat ringkas oleh tour leader",
+      "Penerbangan ke Jepun"
+     ],
+     "makan": ""
+    },
+    {
+     "tajuk": "Jelajah Tokyo",
+     "aktiviti": [
+      "Lawatan tempat menarik utama di Tokyo",
+      "Solat Zohor & Asar (jamak) di masjid/surau berdekatan",
+      "Masa bebas & membeli-belah"
+     ],
+     "makan": "S,T,M"
+    },
+    {
+     "tajuk": "Jelajah Fuji",
+     "aktiviti": [
+      "Lawatan tempat menarik utama di Fuji",
+      "Solat Zohor & Asar (jamak) di masjid/surau berdekatan",
+      "Masa bebas & membeli-belah"
+     ],
+     "makan": "S,T,M"
+    },
+    {
+     "tajuk": "Jelajah Nagoya",
+     "aktiviti": [
+      "Lawatan tempat menarik utama di Nagoya",
+      "Solat Zohor & Asar (jamak) di masjid/surau berdekatan",
+      "Masa bebas & membeli-belah"
+     ],
+     "makan": "S,T,M"
+    },
+    {
+     "tajuk": "Jelajah Kyoto",
+     "aktiviti": [
+      "Lawatan tempat menarik utama di Kyoto",
+      "Solat Zohor & Asar (jamak) di masjid/surau berdekatan",
+      "Masa bebas & membeli-belah"
+     ],
+     "makan": "S,T,M"
+    },
+    {
+     "tajuk": "Jelajah Osaka",
+     "aktiviti": [
+      "Lawatan tempat menarik utama di Osaka",
+      "Solat Zohor & Asar (jamak) di masjid/surau berdekatan",
+      "Masa bebas & membeli-belah"
+     ],
+     "makan": "S,T,M"
+    },
+    {
+     "tajuk": "Jelajah Tokyo",
+     "aktiviti": [
+      "Lawatan tempat menarik utama di Tokyo",
+      "Solat Zohor & Asar (jamak) di masjid/surau berdekatan",
+      "Masa bebas & membeli-belah"
+     ],
+     "makan": "S,T,M"
+    },
+    {
+     "tajuk": "Pulang ke Malaysia",
+     "aktiviti": [
+      "Daftar keluar hotel",
+      "Pemindahan ke lapangan terbang",
+      "Tiba di KLIA — perjalanan tamat"
+     ],
+     "makan": "S"
+    }
+   ],
+   "termasuk": [
+    "Tiket penerbangan pergi-balik (kelas ekonomi)",
+    "Penginapan hotel (bilik berkongsi)",
+    "Makan halal seperti dalam itinerari",
+    "Pengangkutan persendirian sepanjang lawatan",
+    "Tour leader Muslim dari Malaysia",
+    "Tiket masuk lokasi dalam itinerari",
+    "Insurans perjalanan asas"
+   ],
+   "tidak": [
+    "Yuran visa (jika berkenaan)",
+    "Tip pemandu & pemandu pelancong tempatan",
+    "Lebihan bagasi",
+    "Perbelanjaan peribadi",
+    "Aktiviti pilihan di luar itinerari"
+   ],
+   "nota": [
+    "Pasport mesti sah sekurang-kurangnya 6 bulan dari tarikh berlepas.",
+    "Itinerari boleh berubah mengikut cuaca dan keadaan semasa.",
+    "Harga tertakluk kepada perubahan kadar tukaran wang dan cukai lapangan terbang."
+   ]
+  },
+  {
+   "id": "jepun-honeymoon-hakone",
+   "dest": "jepun",
+   "jenis": "honeymoon",
+   "nama": "Tokyo – Hakone Romantik",
+   "hari": 6,
+   "malam": 4,
+   "harga": 10490,
+   "hotel": "Ryokan & Hotel 5★",
+   "kumpulan": "2 orang",
+   "badge": "Baru",
+   "laluan": [
+    "Tokyo",
+    "Hakone"
+   ],
+   "tarikh": "fleksibel",
+   "sorotan": [
+    "Ryokan dengan onsen peribadi",
+    "Kapal persiaran Tasik Ashi",
+    "Makan malam kaiseki halal",
+    "Sesi fotografi pasangan"
+   ],
+   "itinerari": [
+    {
+     "tajuk": "Berlepas dari KLIA",
+     "aktiviti": [
+      "Berkumpul di KLIA 3 jam sebelum penerbangan",
+      "Taklimat ringkas oleh tour leader",
+      "Penerbangan ke Jepun"
+     ],
+     "makan": ""
+    },
+    {
+     "tajuk": "Jelajah Tokyo",
+     "aktiviti": [
+      "Lawatan tempat menarik utama di Tokyo",
+      "Solat Zohor & Asar (jamak) di masjid/surau berdekatan",
+      "Masa bebas & membeli-belah"
+     ],
+     "makan": "S,T,M"
+    },
+    {
+     "tajuk": "Jelajah Hakone",
+     "aktiviti": [
+      "Lawatan tempat menarik utama di Hakone",
+      "Solat Zohor & Asar (jamak) di masjid/surau berdekatan",
+      "Masa bebas & membeli-belah"
+     ],
+     "makan": "S,T,M"
+    },
+    {
+     "tajuk": "Jelajah Tokyo",
+     "aktiviti": [
+      "Lawatan tempat menarik utama di Tokyo",
+      "Solat Zohor & Asar (jamak) di masjid/surau berdekatan",
+      "Masa bebas & membeli-belah"
+     ],
+     "makan": "S,T,M"
+    },
+    {
+     "tajuk": "Jelajah Hakone",
+     "aktiviti": [
+      "Lawatan tempat menarik utama di Hakone",
+      "Solat Zohor & Asar (jamak) di masjid/surau berdekatan",
+      "Masa bebas & membeli-belah"
+     ],
+     "makan": "S,T,M"
+    },
+    {
+     "tajuk": "Pulang ke Malaysia",
+     "aktiviti": [
+      "Daftar keluar hotel",
+      "Pemindahan ke lapangan terbang",
+      "Tiba di KLIA — perjalanan tamat"
+     ],
+     "makan": "S"
+    }
+   ],
+   "termasuk": [
+    "Tiket penerbangan pergi-balik (kelas ekonomi)",
+    "Penginapan hotel (bilik berkongsi)",
+    "Makan halal seperti dalam itinerari",
+    "Pengangkutan persendirian sepanjang lawatan",
+    "Tour leader Muslim dari Malaysia",
+    "Tiket masuk lokasi dalam itinerari",
+    "Insurans perjalanan asas"
+   ],
+   "tidak": [
+    "Yuran visa (jika berkenaan)",
+    "Tip pemandu & pemandu pelancong tempatan",
+    "Lebihan bagasi",
+    "Perbelanjaan peribadi",
+    "Aktiviti pilihan di luar itinerari"
+   ],
+   "nota": [
+    "Pasport mesti sah sekurang-kurangnya 6 bulan dari tarikh berlepas.",
+    "Itinerari boleh berubah mengikut cuaca dan keadaan semasa.",
+    "Harga tertakluk kepada perubahan kadar tukaran wang dan cukai lapangan terbang."
+   ]
+  },
+  {
+   "id": "jepun-adventure-hokkaido",
+   "dest": "jepun",
+   "jenis": "adventure",
+   "nama": "Hokkaido Salji & Alam",
+   "hari": 7,
+   "malam": 5,
+   "harga": 9690,
+   "hotel": "Hotel 4★",
+   "kumpulan": "4 – 15 orang",
+   "laluan": [
+    "Sapporo",
+    "Otaru",
+    "Furano",
+    "Niseko"
+   ],
+   "tarikh": "fleksibel",
+   "sorotan": [
+    "Bermain ski di Niseko",
+    "Snowmobile & tiub salji",
+    "Terusan Otaru",
+    "Festival salji Sapporo (Feb)"
+   ],
+   "itinerari": [
+    {
+     "tajuk": "Berlepas dari KLIA",
+     "aktiviti": [
+      "Berkumpul di KLIA 3 jam sebelum penerbangan",
+      "Taklimat ringkas oleh tour leader",
+      "Penerbangan ke Jepun"
+     ],
+     "makan": ""
+    },
+    {
+     "tajuk": "Jelajah Sapporo",
+     "aktiviti": [
+      "Lawatan tempat menarik utama di Sapporo",
+      "Solat Zohor & Asar (jamak) di masjid/surau berdekatan",
+      "Masa bebas & membeli-belah"
+     ],
+     "makan": "S,T,M"
+    },
+    {
+     "tajuk": "Jelajah Otaru",
+     "aktiviti": [
+      "Lawatan tempat menarik utama di Otaru",
+      "Solat Zohor & Asar (jamak) di masjid/surau berdekatan",
+      "Masa bebas & membeli-belah"
+     ],
+     "makan": "S,T,M"
+    },
+    {
+     "tajuk": "Jelajah Furano",
+     "aktiviti": [
+      "Lawatan tempat menarik utama di Furano",
+      "Solat Zohor & Asar (jamak) di masjid/surau berdekatan",
+      "Masa bebas & membeli-belah"
+     ],
+     "makan": "S,T,M"
+    },
+    {
+     "tajuk": "Jelajah Niseko",
+     "aktiviti": [
+      "Lawatan tempat menarik utama di Niseko",
+      "Solat Zohor & Asar (jamak) di masjid/surau berdekatan",
+      "Masa bebas & membeli-belah"
+     ],
+     "makan": "S,T,M"
+    },
+    {
+     "tajuk": "Jelajah Sapporo",
+     "aktiviti": [
+      "Lawatan tempat menarik utama di Sapporo",
+      "Solat Zohor & Asar (jamak) di masjid/surau berdekatan",
+      "Masa bebas & membeli-belah"
+     ],
+     "makan": "S,T,M"
+    },
+    {
+     "tajuk": "Pulang ke Malaysia",
+     "aktiviti": [
+      "Daftar keluar hotel",
+      "Pemindahan ke lapangan terbang",
+      "Tiba di KLIA — perjalanan tamat"
+     ],
+     "makan": "S"
+    }
+   ],
+   "termasuk": [
+    "Tiket penerbangan pergi-balik (kelas ekonomi)",
+    "Penginapan hotel (bilik berkongsi)",
+    "Makan halal seperti dalam itinerari",
+    "Pengangkutan persendirian sepanjang lawatan",
+    "Tour leader Muslim dari Malaysia",
+    "Tiket masuk lokasi dalam itinerari",
+    "Insurans perjalanan asas"
+   ],
+   "tidak": [
+    "Yuran visa (jika berkenaan)",
+    "Tip pemandu & pemandu pelancong tempatan",
+    "Lebihan bagasi",
+    "Perbelanjaan peribadi",
+    "Aktiviti pilihan di luar itinerari"
+   ],
+   "nota": [
+    "Pasport mesti sah sekurang-kurangnya 6 bulan dari tarikh berlepas.",
+    "Itinerari boleh berubah mengikut cuaca dan keadaan semasa.",
+    "Harga tertakluk kepada perubahan kadar tukaran wang dan cukai lapangan terbang."
+   ]
+  },
+  {
+   "id": "korea-private-seoul-jeju",
+   "dest": "korea",
+   "jenis": "private",
+   "nama": "Seoul – Nami – Jeju",
+   "hari": 7,
+   "malam": 5,
+   "harga": 6890,
+   "hotel": "Hotel 4★",
+   "kumpulan": "2 – 12 orang",
+   "laluan": [
+    "Seoul",
+    "Nami",
+    "Jeju"
+   ],
+   "tarikh": "fleksibel",
+   "sorotan": [
+    "Pulau Nami & Petite France",
+    "Istana Gyeongbokgung berhanbok",
+    "Jeju — Seongsan Ilchulbong"
+   ],
+   "itinerari": [
+    {
+     "tajuk": "Berlepas dari KLIA",
+     "aktiviti": [
+      "Berkumpul di KLIA 3 jam sebelum penerbangan",
+      "Taklimat ringkas oleh tour leader",
+      "Penerbangan ke Korea Selatan"
+     ],
+     "makan": ""
+    },
+    {
+     "tajuk": "Jelajah Seoul",
+     "aktiviti": [
+      "Lawatan tempat menarik utama di Seoul",
+      "Solat Zohor & Asar (jamak) di masjid/surau berdekatan",
+      "Masa bebas & membeli-belah"
+     ],
+     "makan": "S,T,M"
+    },
+    {
+     "tajuk": "Jelajah Nami",
+     "aktiviti": [
+      "Lawatan tempat menarik utama di Nami",
+      "Solat Zohor & Asar (jamak) di masjid/surau berdekatan",
+      "Masa bebas & membeli-belah"
+     ],
+     "makan": "S,T,M"
+    },
+    {
+     "tajuk": "Jelajah Jeju",
+     "aktiviti": [
+      "Lawatan tempat menarik utama di Jeju",
+      "Solat Zohor & Asar (jamak) di masjid/surau berdekatan",
+      "Masa bebas & membeli-belah"
+     ],
+     "makan": "S,T,M"
+    },
+    {
+     "tajuk": "Jelajah Seoul",
+     "aktiviti": [
+      "Lawatan tempat menarik utama di Seoul",
+      "Solat Zohor & Asar (jamak) di masjid/surau berdekatan",
+      "Masa bebas & membeli-belah"
+     ],
+     "makan": "S,T,M"
+    },
+    {
+     "tajuk": "Jelajah Nami",
+     "aktiviti": [
+      "Lawatan tempat menarik utama di Nami",
+      "Solat Zohor & Asar (jamak) di masjid/surau berdekatan",
+      "Masa bebas & membeli-belah"
+     ],
+     "makan": "S,T,M"
+    },
+    {
+     "tajuk": "Pulang ke Malaysia",
+     "aktiviti": [
+      "Daftar keluar hotel",
+      "Pemindahan ke lapangan terbang",
+      "Tiba di KLIA — perjalanan tamat"
+     ],
+     "makan": "S"
+    }
+   ],
+   "termasuk": [
+    "Tiket penerbangan pergi-balik (kelas ekonomi)",
+    "Penginapan hotel (bilik berkongsi)",
+    "Makan halal seperti dalam itinerari",
+    "Pengangkutan persendirian sepanjang lawatan",
+    "Tour leader Muslim dari Malaysia",
+    "Tiket masuk lokasi dalam itinerari",
+    "Insurans perjalanan asas"
+   ],
+   "tidak": [
+    "Yuran visa (jika berkenaan)",
+    "Tip pemandu & pemandu pelancong tempatan",
+    "Lebihan bagasi",
+    "Perbelanjaan peribadi",
+    "Aktiviti pilihan di luar itinerari"
+   ],
+   "nota": [
+    "Pasport mesti sah sekurang-kurangnya 6 bulan dari tarikh berlepas.",
+    "Itinerari boleh berubah mengikut cuaca dan keadaan semasa.",
+    "Harga tertakluk kepada perubahan kadar tukaran wang dan cukai lapangan terbang."
+   ]
+  },
+  {
+   "id": "korea-series-autumn",
+   "dest": "korea",
+   "jenis": "series",
+   "nama": "Korea Musim Luruh",
+   "hari": 6,
+   "malam": 4,
+   "harga": 4990,
+   "hotel": "Hotel 3★",
+   "kumpulan": "Maks. 25 orang",
+   "laluan": [
+    "Seoul",
+    "Nami",
+    "Everland"
+   ],
+   "tarikh": [
+    {
+     "t": "2026-10-28",
+     "s": "hampir",
+     "k": 3
+    },
+    {
+     "t": "2026-11-05",
+     "s": "tersedia",
+     "k": 15
+    }
+   ],
+   "sorotan": [
+    "Daun musim luruh di Nami",
+    "Everland",
+    "Membeli-belah di Myeongdong"
+   ],
+   "itinerari": [
+    {
+     "tajuk": "Berlepas dari KLIA",
+     "aktiviti": [
+      "Berkumpul di KLIA 3 jam sebelum penerbangan",
+      "Taklimat ringkas oleh tour leader",
+      "Penerbangan ke Korea Selatan"
+     ],
+     "makan": ""
+    },
+    {
+     "tajuk": "Jelajah Seoul",
+     "aktiviti": [
+      "Lawatan tempat menarik utama di Seoul",
+      "Solat Zohor & Asar (jamak) di masjid/surau berdekatan",
+      "Masa bebas & membeli-belah"
+     ],
+     "makan": "S,T,M"
+    },
+    {
+     "tajuk": "Jelajah Nami",
+     "aktiviti": [
+      "Lawatan tempat menarik utama di Nami",
+      "Solat Zohor & Asar (jamak) di masjid/surau berdekatan",
+      "Masa bebas & membeli-belah"
+     ],
+     "makan": "S,T,M"
+    },
+    {
+     "tajuk": "Jelajah Everland",
+     "aktiviti": [
+      "Lawatan tempat menarik utama di Everland",
+      "Solat Zohor & Asar (jamak) di masjid/surau berdekatan",
+      "Masa bebas & membeli-belah"
+     ],
+     "makan": "S,T,M"
+    },
+    {
+     "tajuk": "Jelajah Seoul",
+     "aktiviti": [
+      "Lawatan tempat menarik utama di Seoul",
+      "Solat Zohor & Asar (jamak) di masjid/surau berdekatan",
+      "Masa bebas & membeli-belah"
+     ],
+     "makan": "S,T,M"
+    },
+    {
+     "tajuk": "Pulang ke Malaysia",
+     "aktiviti": [
+      "Daftar keluar hotel",
+      "Pemindahan ke lapangan terbang",
+      "Tiba di KLIA — perjalanan tamat"
+     ],
+     "makan": "S"
+    }
+   ],
+   "termasuk": [
+    "Tiket penerbangan pergi-balik (kelas ekonomi)",
+    "Penginapan hotel (bilik berkongsi)",
+    "Makan halal seperti dalam itinerari",
+    "Pengangkutan persendirian sepanjang lawatan",
+    "Tour leader Muslim dari Malaysia",
+    "Tiket masuk lokasi dalam itinerari",
+    "Insurans perjalanan asas"
+   ],
+   "tidak": [
+    "Yuran visa (jika berkenaan)",
+    "Tip pemandu & pemandu pelancong tempatan",
+    "Lebihan bagasi",
+    "Perbelanjaan peribadi",
+    "Aktiviti pilihan di luar itinerari"
+   ],
+   "nota": [
+    "Pasport mesti sah sekurang-kurangnya 6 bulan dari tarikh berlepas.",
+    "Itinerari boleh berubah mengikut cuaca dan keadaan semasa.",
+    "Harga tertakluk kepada perubahan kadar tukaran wang dan cukai lapangan terbang."
+   ]
+  },
+  {
+   "id": "china-adventure-zhangjiajie",
+   "dest": "china",
+   "jenis": "adventure",
+   "nama": "Zhangjiajie Avatar",
+   "hari": 6,
+   "malam": 5,
+   "harga": 3990,
+   "hotel": "Hotel 4★",
+   "kumpulan": "4 – 20 orang",
+   "laluan": [
+    "Changsha",
+    "Zhangjiajie",
+    "Fenghuang"
+   ],
+   "tarikh": "fleksibel",
+   "sorotan": [
+    "Gunung Avatar Hallelujah",
+    "Jambatan kaca Grand Canyon",
+    "Bandar purba Fenghuang"
+   ],
+   "itinerari": [
+    {
+     "tajuk": "Berlepas dari KLIA",
+     "aktiviti": [
+      "Berkumpul di KLIA 3 jam sebelum penerbangan",
+      "Taklimat ringkas oleh tour leader",
+      "Penerbangan ke China"
+     ],
+     "makan": ""
+    },
+    {
+     "tajuk": "Jelajah Changsha",
+     "aktiviti": [
+      "Lawatan tempat menarik utama di Changsha",
+      "Solat Zohor & Asar (jamak) di masjid/surau berdekatan",
+      "Masa bebas & membeli-belah"
+     ],
+     "makan": "S,T,M"
+    },
+    {
+     "tajuk": "Jelajah Zhangjiajie",
+     "aktiviti": [
+      "Lawatan tempat menarik utama di Zhangjiajie",
+      "Solat Zohor & Asar (jamak) di masjid/surau berdekatan",
+      "Masa bebas & membeli-belah"
+     ],
+     "makan": "S,T,M"
+    },
+    {
+     "tajuk": "Jelajah Fenghuang",
+     "aktiviti": [
+      "Lawatan tempat menarik utama di Fenghuang",
+      "Solat Zohor & Asar (jamak) di masjid/surau berdekatan",
+      "Masa bebas & membeli-belah"
+     ],
+     "makan": "S,T,M"
+    },
+    {
+     "tajuk": "Jelajah Changsha",
+     "aktiviti": [
+      "Lawatan tempat menarik utama di Changsha",
+      "Solat Zohor & Asar (jamak) di masjid/surau berdekatan",
+      "Masa bebas & membeli-belah"
+     ],
+     "makan": "S,T,M"
+    },
+    {
+     "tajuk": "Pulang ke Malaysia",
+     "aktiviti": [
+      "Daftar keluar hotel",
+      "Pemindahan ke lapangan terbang",
+      "Tiba di KLIA — perjalanan tamat"
+     ],
+     "makan": "S"
+    }
+   ],
+   "termasuk": [
+    "Tiket penerbangan pergi-balik (kelas ekonomi)",
+    "Penginapan hotel (bilik berkongsi)",
+    "Makan halal seperti dalam itinerari",
+    "Pengangkutan persendirian sepanjang lawatan",
+    "Tour leader Muslim dari Malaysia",
+    "Tiket masuk lokasi dalam itinerari",
+    "Insurans perjalanan asas"
+   ],
+   "tidak": [
+    "Yuran visa (jika berkenaan)",
+    "Tip pemandu & pemandu pelancong tempatan",
+    "Lebihan bagasi",
+    "Perbelanjaan peribadi",
+    "Aktiviti pilihan di luar itinerari"
+   ],
+   "nota": [
+    "Pasport mesti sah sekurang-kurangnya 6 bulan dari tarikh berlepas.",
+    "Itinerari boleh berubah mengikut cuaca dan keadaan semasa.",
+    "Harga tertakluk kepada perubahan kadar tukaran wang dan cukai lapangan terbang."
+   ]
+  },
+  {
+   "id": "china-series-xian-beijing",
+   "dest": "china",
+   "jenis": "series",
+   "nama": "Beijing – Xi’an Jejak Islam",
+   "hari": 8,
+   "malam": 6,
+   "harga": 5490,
+   "hotel": "Hotel 4★",
+   "kumpulan": "Maks. 25 orang",
+   "laluan": [
+    "Beijing",
+    "Xi’an"
+   ],
+   "tarikh": [
+    {
+     "t": "2026-12-02",
+     "s": "tersedia",
+     "k": 18
+    }
+   ],
+   "sorotan": [
+    "Tembok Besar China",
+    "Masjid Besar Xi’an",
+    "Askar Terracotta"
+   ],
+   "itinerari": [
+    {
+     "tajuk": "Berlepas dari KLIA",
+     "aktiviti": [
+      "Berkumpul di KLIA 3 jam sebelum penerbangan",
+      "Taklimat ringkas oleh tour leader",
+      "Penerbangan ke China"
+     ],
+     "makan": ""
+    },
+    {
+     "tajuk": "Jelajah Beijing",
+     "aktiviti": [
+      "Lawatan tempat menarik utama di Beijing",
+      "Solat Zohor & Asar (jamak) di masjid/surau berdekatan",
+      "Masa bebas & membeli-belah"
+     ],
+     "makan": "S,T,M"
+    },
+    {
+     "tajuk": "Jelajah Xi’an",
+     "aktiviti": [
+      "Lawatan tempat menarik utama di Xi’an",
+      "Solat Zohor & Asar (jamak) di masjid/surau berdekatan",
+      "Masa bebas & membeli-belah"
+     ],
+     "makan": "S,T,M"
+    },
+    {
+     "tajuk": "Jelajah Beijing",
+     "aktiviti": [
+      "Lawatan tempat menarik utama di Beijing",
+      "Solat Zohor & Asar (jamak) di masjid/surau berdekatan",
+      "Masa bebas & membeli-belah"
+     ],
+     "makan": "S,T,M"
+    },
+    {
+     "tajuk": "Jelajah Xi’an",
+     "aktiviti": [
+      "Lawatan tempat menarik utama di Xi’an",
+      "Solat Zohor & Asar (jamak) di masjid/surau berdekatan",
+      "Masa bebas & membeli-belah"
+     ],
+     "makan": "S,T,M"
+    },
+    {
+     "tajuk": "Jelajah Beijing",
+     "aktiviti": [
+      "Lawatan tempat menarik utama di Beijing",
+      "Solat Zohor & Asar (jamak) di masjid/surau berdekatan",
+      "Masa bebas & membeli-belah"
+     ],
+     "makan": "S,T,M"
+    },
+    {
+     "tajuk": "Jelajah Xi’an",
+     "aktiviti": [
+      "Lawatan tempat menarik utama di Xi’an",
+      "Solat Zohor & Asar (jamak) di masjid/surau berdekatan",
+      "Masa bebas & membeli-belah"
+     ],
+     "makan": "S,T,M"
+    },
+    {
+     "tajuk": "Pulang ke Malaysia",
+     "aktiviti": [
+      "Daftar keluar hotel",
+      "Pemindahan ke lapangan terbang",
+      "Tiba di KLIA — perjalanan tamat"
+     ],
+     "makan": "S"
+    }
+   ],
+   "termasuk": [
+    "Tiket penerbangan pergi-balik (kelas ekonomi)",
+    "Penginapan hotel (bilik berkongsi)",
+    "Makan halal seperti dalam itinerari",
+    "Pengangkutan persendirian sepanjang lawatan",
+    "Tour leader Muslim dari Malaysia",
+    "Tiket masuk lokasi dalam itinerari",
+    "Insurans perjalanan asas"
+   ],
+   "tidak": [
+    "Yuran visa (jika berkenaan)",
+    "Tip pemandu & pemandu pelancong tempatan",
+    "Lebihan bagasi",
+    "Perbelanjaan peribadi",
+    "Aktiviti pilihan di luar itinerari"
+   ],
+   "nota": [
+    "Pasport mesti sah sekurang-kurangnya 6 bulan dari tarikh berlepas.",
+    "Itinerari boleh berubah mengikut cuaca dan keadaan semasa.",
+    "Harga tertakluk kepada perubahan kadar tukaran wang dan cukai lapangan terbang."
+   ]
+  },
+  {
+   "id": "asia-tengah-series-4tan",
+   "dest": "asia-tengah",
+   "jenis": "series",
+   "nama": "Jelajah 4 Tan Laluan Sutera",
+   "hari": 12,
+   "malam": 10,
+   "harga": 12990,
+   "hotel": "Hotel 4★",
+   "kumpulan": "Maks. 20 orang",
+   "badge": "Popular",
+   "laluan": [
+    "Tashkent",
+    "Samarkand",
+    "Bukhara",
+    "Almaty",
+    "Bishkek",
+    "Dushanbe"
+   ],
+   "tarikh": [
+    {
+     "t": "2027-04-15",
+     "s": "tersedia",
+     "k": 14
+    },
+    {
+     "t": "2027-05-10",
+     "s": "tersedia",
+     "k": 20
+    }
+   ],
+   "sorotan": [
+    "Registan, Samarkand",
+    "Makam Imam Bukhari",
+    "Tasik Issyk-Kul",
+    "Charyn Canyon"
+   ],
+   "itinerari": [
+    {
+     "tajuk": "KLIA → Tashkent",
+     "aktiviti": [
+      "Penerbangan ke Tashkent",
+      "Pemindahan ke hotel"
+     ],
+     "makan": "M"
+    },
+    {
+     "tajuk": "Tashkent",
+     "aktiviti": [
+      "Kompleks Hazrati Imam & Mushaf Uthmani",
+      "Pasar Chorsu",
+      "Stesen metro bersejarah"
+     ],
+     "makan": "S,T,M"
+    },
+    {
+     "tajuk": "Tashkent → Samarkand",
+     "aktiviti": [
+      "Kereta api laju Afrosiyob",
+      "Dataran Registan",
+      "Masjid Bibi-Khanym"
+     ],
+     "makan": "S,T,M"
+    },
+    {
+     "tajuk": "Samarkand",
+     "aktiviti": [
+      "Ziarah Makam Imam Bukhari",
+      "Shah-i-Zinda",
+      "Kilang kertas sutera"
+     ],
+     "makan": "S,T,M"
+    },
+    {
+     "tajuk": "Samarkand → Bukhara",
+     "aktiviti": [
+      "Perjalanan ke Bukhara",
+      "Kota Ark & Masjid Kalon"
+     ],
+     "makan": "S,T,M"
+    },
+    {
+     "tajuk": "Bukhara → Almaty",
+     "aktiviti": [
+      "Madrasah Mir-i-Arab",
+      "Penerbangan ke Almaty"
+     ],
+     "makan": "S,T,M"
+    },
+    {
+     "tajuk": "Almaty — Charyn Canyon",
+     "aktiviti": [
+      "Charyn Canyon",
+      "Tasik Kolsai (cuaca mengizinkan)"
+     ],
+     "makan": "S,T,M"
+    },
+    {
+     "tajuk": "Almaty → Bishkek",
+     "aktiviti": [
+      "Perjalanan darat ke Bishkek",
+      "Dataran Ala-Too"
+     ],
+     "makan": "S,T,M"
+    },
+    {
+     "tajuk": "Tasik Issyk-Kul",
+     "aktiviti": [
+      "Tasik Issyk-Kul",
+      "Petroglif Cholpon-Ata"
+     ],
+     "makan": "S,T,M"
+    },
+    {
+     "tajuk": "Bishkek → Dushanbe",
+     "aktiviti": [
+      "Penerbangan ke Dushanbe",
+      "Taman Rudaki & Istana Nasional"
+     ],
+     "makan": "S,T,M"
+    },
+    {
+     "tajuk": "Dushanbe",
+     "aktiviti": [
+      "Kubu Hisor",
+      "Masa bebas"
+     ],
+     "makan": "S,T,M"
+    },
+    {
+     "tajuk": "Dushanbe → KLIA",
+     "aktiviti": [
+      "Penerbangan pulang",
+      "Tiba di KLIA"
+     ],
+     "makan": "S"
+    }
+   ],
+   "termasuk": [
+    "Tiket penerbangan pergi-balik (kelas ekonomi)",
+    "Penginapan hotel (bilik berkongsi)",
+    "Makan halal seperti dalam itinerari",
+    "Pengangkutan persendirian sepanjang lawatan",
+    "Tour leader Muslim dari Malaysia",
+    "Tiket masuk lokasi dalam itinerari",
+    "Insurans perjalanan asas"
+   ],
+   "tidak": [
+    "Yuran visa (jika berkenaan)",
+    "Tip pemandu & pemandu pelancong tempatan",
+    "Lebihan bagasi",
+    "Perbelanjaan peribadi",
+    "Aktiviti pilihan di luar itinerari"
+   ],
+   "nota": [
+    "Pasport mesti sah sekurang-kurangnya 6 bulan dari tarikh berlepas.",
+    "Itinerari boleh berubah mengikut cuaca dan keadaan semasa.",
+    "Harga tertakluk kepada perubahan kadar tukaran wang dan cukai lapangan terbang."
+   ]
+  },
+  {
+   "id": "asia-tengah-private-uzbek",
+   "dest": "asia-tengah",
+   "jenis": "private",
+   "nama": "Uzbekistan Sahaja",
+   "hari": 8,
+   "malam": 6,
+   "harga": 6490,
+   "hotel": "Hotel 4★",
+   "kumpulan": "2 – 12 orang",
+   "laluan": [
+    "Tashkent",
+    "Samarkand",
+    "Bukhara",
+    "Khiva"
+   ],
+   "tarikh": "fleksibel",
+   "sorotan": [
+    "Ziarah Imam Bukhari",
+    "Kota tembok Khiva",
+    "Kereta api Afrosiyob"
+   ],
+   "itinerari": [
+    {
+     "tajuk": "Berlepas dari KLIA",
+     "aktiviti": [
+      "Berkumpul di KLIA 3 jam sebelum penerbangan",
+      "Taklimat ringkas oleh tour leader",
+      "Penerbangan ke Negara-negara Asia Tengah (4 Tan)"
+     ],
+     "makan": ""
+    },
+    {
+     "tajuk": "Jelajah Tashkent",
+     "aktiviti": [
+      "Lawatan tempat menarik utama di Tashkent",
+      "Solat Zohor & Asar (jamak) di masjid/surau berdekatan",
+      "Masa bebas & membeli-belah"
+     ],
+     "makan": "S,T,M"
+    },
+    {
+     "tajuk": "Jelajah Samarkand",
+     "aktiviti": [
+      "Lawatan tempat menarik utama di Samarkand",
+      "Solat Zohor & Asar (jamak) di masjid/surau berdekatan",
+      "Masa bebas & membeli-belah"
+     ],
+     "makan": "S,T,M"
+    },
+    {
+     "tajuk": "Jelajah Bukhara",
+     "aktiviti": [
+      "Lawatan tempat menarik utama di Bukhara",
+      "Solat Zohor & Asar (jamak) di masjid/surau berdekatan",
+      "Masa bebas & membeli-belah"
+     ],
+     "makan": "S,T,M"
+    },
+    {
+     "tajuk": "Jelajah Khiva",
+     "aktiviti": [
+      "Lawatan tempat menarik utama di Khiva",
+      "Solat Zohor & Asar (jamak) di masjid/surau berdekatan",
+      "Masa bebas & membeli-belah"
+     ],
+     "makan": "S,T,M"
+    },
+    {
+     "tajuk": "Jelajah Tashkent",
+     "aktiviti": [
+      "Lawatan tempat menarik utama di Tashkent",
+      "Solat Zohor & Asar (jamak) di masjid/surau berdekatan",
+      "Masa bebas & membeli-belah"
+     ],
+     "makan": "S,T,M"
+    },
+    {
+     "tajuk": "Jelajah Samarkand",
+     "aktiviti": [
+      "Lawatan tempat menarik utama di Samarkand",
+      "Solat Zohor & Asar (jamak) di masjid/surau berdekatan",
+      "Masa bebas & membeli-belah"
+     ],
+     "makan": "S,T,M"
+    },
+    {
+     "tajuk": "Pulang ke Malaysia",
+     "aktiviti": [
+      "Daftar keluar hotel",
+      "Pemindahan ke lapangan terbang",
+      "Tiba di KLIA — perjalanan tamat"
+     ],
+     "makan": "S"
+    }
+   ],
+   "termasuk": [
+    "Tiket penerbangan pergi-balik (kelas ekonomi)",
+    "Penginapan hotel (bilik berkongsi)",
+    "Makan halal seperti dalam itinerari",
+    "Pengangkutan persendirian sepanjang lawatan",
+    "Tour leader Muslim dari Malaysia",
+    "Tiket masuk lokasi dalam itinerari",
+    "Insurans perjalanan asas"
+   ],
+   "tidak": [
+    "Yuran visa (jika berkenaan)",
+    "Tip pemandu & pemandu pelancong tempatan",
+    "Lebihan bagasi",
+    "Perbelanjaan peribadi",
+    "Aktiviti pilihan di luar itinerari"
+   ],
+   "nota": [
+    "Pasport mesti sah sekurang-kurangnya 6 bulan dari tarikh berlepas.",
+    "Itinerari boleh berubah mengikut cuaca dan keadaan semasa.",
+    "Harga tertakluk kepada perubahan kadar tukaran wang dan cukai lapangan terbang."
+   ]
+  },
+  {
+   "id": "trans-siberia-adventure",
+   "dest": "trans-siberia",
+   "jenis": "adventure",
+   "nama": "Kereta Api Trans-Siberia",
+   "hari": 14,
+   "malam": 12,
+   "harga": 15900,
+   "hotel": "Kabin kereta api & Hotel 4★",
+   "kumpulan": "4 – 16 orang",
+   "laluan": [
+    "Moscow",
+    "Kazan",
+    "Yekaterinburg",
+    "Irkutsk"
+   ],
+   "tarikh": "fleksibel",
+   "sorotan": [
+    "Masjid Qolsharif, Kazan",
+    "Sempadan Eropah–Asia",
+    "Tasik Baikal"
+   ],
+   "itinerari": [
+    {
+     "tajuk": "Berlepas dari KLIA",
+     "aktiviti": [
+      "Berkumpul di KLIA 3 jam sebelum penerbangan",
+      "Taklimat ringkas oleh tour leader",
+      "Penerbangan ke Trans-Siberia"
+     ],
+     "makan": ""
+    },
+    {
+     "tajuk": "Jelajah Moscow",
+     "aktiviti": [
+      "Lawatan tempat menarik utama di Moscow",
+      "Solat Zohor & Asar (jamak) di masjid/surau berdekatan",
+      "Masa bebas & membeli-belah"
+     ],
+     "makan": "S,T,M"
+    },
+    {
+     "tajuk": "Jelajah Kazan",
+     "aktiviti": [
+      "Lawatan tempat menarik utama di Kazan",
+      "Solat Zohor & Asar (jamak) di masjid/surau berdekatan",
+      "Masa bebas & membeli-belah"
+     ],
+     "makan": "S,T,M"
+    },
+    {
+     "tajuk": "Jelajah Yekaterinburg",
+     "aktiviti": [
+      "Lawatan tempat menarik utama di Yekaterinburg",
+      "Solat Zohor & Asar (jamak) di masjid/surau berdekatan",
+      "Masa bebas & membeli-belah"
+     ],
+     "makan": "S,T,M"
+    },
+    {
+     "tajuk": "Jelajah Irkutsk",
+     "aktiviti": [
+      "Lawatan tempat menarik utama di Irkutsk",
+      "Solat Zohor & Asar (jamak) di masjid/surau berdekatan",
+      "Masa bebas & membeli-belah"
+     ],
+     "makan": "S,T,M"
+    },
+    {
+     "tajuk": "Jelajah Moscow",
+     "aktiviti": [
+      "Lawatan tempat menarik utama di Moscow",
+      "Solat Zohor & Asar (jamak) di masjid/surau berdekatan",
+      "Masa bebas & membeli-belah"
+     ],
+     "makan": "S,T,M"
+    },
+    {
+     "tajuk": "Jelajah Kazan",
+     "aktiviti": [
+      "Lawatan tempat menarik utama di Kazan",
+      "Solat Zohor & Asar (jamak) di masjid/surau berdekatan",
+      "Masa bebas & membeli-belah"
+     ],
+     "makan": "S,T,M"
+    },
+    {
+     "tajuk": "Jelajah Yekaterinburg",
+     "aktiviti": [
+      "Lawatan tempat menarik utama di Yekaterinburg",
+      "Solat Zohor & Asar (jamak) di masjid/surau berdekatan",
+      "Masa bebas & membeli-belah"
+     ],
+     "makan": "S,T,M"
+    },
+    {
+     "tajuk": "Jelajah Irkutsk",
+     "aktiviti": [
+      "Lawatan tempat menarik utama di Irkutsk",
+      "Solat Zohor & Asar (jamak) di masjid/surau berdekatan",
+      "Masa bebas & membeli-belah"
+     ],
+     "makan": "S,T,M"
+    },
+    {
+     "tajuk": "Jelajah Moscow",
+     "aktiviti": [
+      "Lawatan tempat menarik utama di Moscow",
+      "Solat Zohor & Asar (jamak) di masjid/surau berdekatan",
+      "Masa bebas & membeli-belah"
+     ],
+     "makan": "S,T,M"
+    },
+    {
+     "tajuk": "Jelajah Kazan",
+     "aktiviti": [
+      "Lawatan tempat menarik utama di Kazan",
+      "Solat Zohor & Asar (jamak) di masjid/surau berdekatan",
+      "Masa bebas & membeli-belah"
+     ],
+     "makan": "S,T,M"
+    },
+    {
+     "tajuk": "Jelajah Yekaterinburg",
+     "aktiviti": [
+      "Lawatan tempat menarik utama di Yekaterinburg",
+      "Solat Zohor & Asar (jamak) di masjid/surau berdekatan",
+      "Masa bebas & membeli-belah"
+     ],
+     "makan": "S,T,M"
+    },
+    {
+     "tajuk": "Jelajah Irkutsk",
+     "aktiviti": [
+      "Lawatan tempat menarik utama di Irkutsk",
+      "Solat Zohor & Asar (jamak) di masjid/surau berdekatan",
+      "Masa bebas & membeli-belah"
+     ],
+     "makan": "S,T,M"
+    },
+    {
+     "tajuk": "Pulang ke Malaysia",
+     "aktiviti": [
+      "Daftar keluar hotel",
+      "Pemindahan ke lapangan terbang",
+      "Tiba di KLIA — perjalanan tamat"
+     ],
+     "makan": "S"
+    }
+   ],
+   "termasuk": [
+    "Tiket penerbangan pergi-balik (kelas ekonomi)",
+    "Penginapan hotel (bilik berkongsi)",
+    "Makan halal seperti dalam itinerari",
+    "Pengangkutan persendirian sepanjang lawatan",
+    "Tour leader Muslim dari Malaysia",
+    "Tiket masuk lokasi dalam itinerari",
+    "Insurans perjalanan asas"
+   ],
+   "tidak": [
+    "Yuran visa (jika berkenaan)",
+    "Tip pemandu & pemandu pelancong tempatan",
+    "Lebihan bagasi",
+    "Perbelanjaan peribadi",
+    "Aktiviti pilihan di luar itinerari"
+   ],
+   "nota": [
+    "Pasport mesti sah sekurang-kurangnya 6 bulan dari tarikh berlepas.",
+    "Itinerari boleh berubah mengikut cuaca dan keadaan semasa.",
+    "Harga tertakluk kepada perubahan kadar tukaran wang dan cukai lapangan terbang."
+   ]
+  },
+  {
+   "id": "baikal-adventure-ice",
+   "dest": "lake-baikal",
+   "jenis": "adventure",
+   "nama": "Baikal Ais Biru",
+   "hari": 8,
+   "malam": 6,
+   "harga": 9990,
+   "hotel": "Hotel & Inap Desa",
+   "kumpulan": "4 – 14 orang",
+   "badge": "Musim Terhad",
+   "laluan": [
+    "Moscow",
+    "Irkutsk",
+    "Olkhon"
+   ],
+   "tarikh": [
+    {
+     "t": "2027-02-12",
+     "s": "tersedia",
+     "k": 10
+    },
+    {
+     "t": "2027-03-05",
+     "s": "hampir",
+     "k": 2
+    }
+   ],
+   "sorotan": [
+    "Berjalan di atas ais Baikal",
+    "Gua ais Olkhon",
+    "Hovercraft"
+   ],
+   "itinerari": [
+    {
+     "tajuk": "Berlepas dari KLIA",
+     "aktiviti": [
+      "Berkumpul di KLIA 3 jam sebelum penerbangan",
+      "Taklimat ringkas oleh tour leader",
+      "Penerbangan ke Rusia & Lake Baikal"
+     ],
+     "makan": ""
+    },
+    {
+     "tajuk": "Jelajah Moscow",
+     "aktiviti": [
+      "Lawatan tempat menarik utama di Moscow",
+      "Solat Zohor & Asar (jamak) di masjid/surau berdekatan",
+      "Masa bebas & membeli-belah"
+     ],
+     "makan": "S,T,M"
+    },
+    {
+     "tajuk": "Jelajah Irkutsk",
+     "aktiviti": [
+      "Lawatan tempat menarik utama di Irkutsk",
+      "Solat Zohor & Asar (jamak) di masjid/surau berdekatan",
+      "Masa bebas & membeli-belah"
+     ],
+     "makan": "S,T,M"
+    },
+    {
+     "tajuk": "Jelajah Olkhon",
+     "aktiviti": [
+      "Lawatan tempat menarik utama di Olkhon",
+      "Solat Zohor & Asar (jamak) di masjid/surau berdekatan",
+      "Masa bebas & membeli-belah"
+     ],
+     "makan": "S,T,M"
+    },
+    {
+     "tajuk": "Jelajah Moscow",
+     "aktiviti": [
+      "Lawatan tempat menarik utama di Moscow",
+      "Solat Zohor & Asar (jamak) di masjid/surau berdekatan",
+      "Masa bebas & membeli-belah"
+     ],
+     "makan": "S,T,M"
+    },
+    {
+     "tajuk": "Jelajah Irkutsk",
+     "aktiviti": [
+      "Lawatan tempat menarik utama di Irkutsk",
+      "Solat Zohor & Asar (jamak) di masjid/surau berdekatan",
+      "Masa bebas & membeli-belah"
+     ],
+     "makan": "S,T,M"
+    },
+    {
+     "tajuk": "Jelajah Olkhon",
+     "aktiviti": [
+      "Lawatan tempat menarik utama di Olkhon",
+      "Solat Zohor & Asar (jamak) di masjid/surau berdekatan",
+      "Masa bebas & membeli-belah"
+     ],
+     "makan": "S,T,M"
+    },
+    {
+     "tajuk": "Pulang ke Malaysia",
+     "aktiviti": [
+      "Daftar keluar hotel",
+      "Pemindahan ke lapangan terbang",
+      "Tiba di KLIA — perjalanan tamat"
+     ],
+     "makan": "S"
+    }
+   ],
+   "termasuk": [
+    "Tiket penerbangan pergi-balik (kelas ekonomi)",
+    "Penginapan hotel (bilik berkongsi)",
+    "Makan halal seperti dalam itinerari",
+    "Pengangkutan persendirian sepanjang lawatan",
+    "Tour leader Muslim dari Malaysia",
+    "Tiket masuk lokasi dalam itinerari",
+    "Insurans perjalanan asas"
+   ],
+   "tidak": [
+    "Yuran visa (jika berkenaan)",
+    "Tip pemandu & pemandu pelancong tempatan",
+    "Lebihan bagasi",
+    "Perbelanjaan peribadi",
+    "Aktiviti pilihan di luar itinerari"
+   ],
+   "nota": [
+    "Pasport mesti sah sekurang-kurangnya 6 bulan dari tarikh berlepas.",
+    "Itinerari boleh berubah mengikut cuaca dan keadaan semasa.",
+    "Harga tertakluk kepada perubahan kadar tukaran wang dan cukai lapangan terbang."
+   ]
+  },
+  {
+   "id": "baikal-private-moscow",
+   "dest": "lake-baikal",
+   "jenis": "private",
+   "nama": "Moscow & Baikal",
+   "hari": 9,
+   "malam": 7,
+   "harga": 11290,
+   "hotel": "Hotel 4★",
+   "kumpulan": "2 – 10 orang",
+   "laluan": [
+    "Moscow",
+    "Irkutsk",
+    "Listvyanka"
+   ],
+   "tarikh": "fleksibel",
+   "sorotan": [
+    "Dataran Merah & Kremlin",
+    "Masjid Besar Moscow",
+    "Listvyanka di tepi Baikal"
+   ],
+   "itinerari": [
+    {
+     "tajuk": "Berlepas dari KLIA",
+     "aktiviti": [
+      "Berkumpul di KLIA 3 jam sebelum penerbangan",
+      "Taklimat ringkas oleh tour leader",
+      "Penerbangan ke Rusia & Lake Baikal"
+     ],
+     "makan": ""
+    },
+    {
+     "tajuk": "Jelajah Moscow",
+     "aktiviti": [
+      "Lawatan tempat menarik utama di Moscow",
+      "Solat Zohor & Asar (jamak) di masjid/surau berdekatan",
+      "Masa bebas & membeli-belah"
+     ],
+     "makan": "S,T,M"
+    },
+    {
+     "tajuk": "Jelajah Irkutsk",
+     "aktiviti": [
+      "Lawatan tempat menarik utama di Irkutsk",
+      "Solat Zohor & Asar (jamak) di masjid/surau berdekatan",
+      "Masa bebas & membeli-belah"
+     ],
+     "makan": "S,T,M"
+    },
+    {
+     "tajuk": "Jelajah Listvyanka",
+     "aktiviti": [
+      "Lawatan tempat menarik utama di Listvyanka",
+      "Solat Zohor & Asar (jamak) di masjid/surau berdekatan",
+      "Masa bebas & membeli-belah"
+     ],
+     "makan": "S,T,M"
+    },
+    {
+     "tajuk": "Jelajah Moscow",
+     "aktiviti": [
+      "Lawatan tempat menarik utama di Moscow",
+      "Solat Zohor & Asar (jamak) di masjid/surau berdekatan",
+      "Masa bebas & membeli-belah"
+     ],
+     "makan": "S,T,M"
+    },
+    {
+     "tajuk": "Jelajah Irkutsk",
+     "aktiviti": [
+      "Lawatan tempat menarik utama di Irkutsk",
+      "Solat Zohor & Asar (jamak) di masjid/surau berdekatan",
+      "Masa bebas & membeli-belah"
+     ],
+     "makan": "S,T,M"
+    },
+    {
+     "tajuk": "Jelajah Listvyanka",
+     "aktiviti": [
+      "Lawatan tempat menarik utama di Listvyanka",
+      "Solat Zohor & Asar (jamak) di masjid/surau berdekatan",
+      "Masa bebas & membeli-belah"
+     ],
+     "makan": "S,T,M"
+    },
+    {
+     "tajuk": "Jelajah Moscow",
+     "aktiviti": [
+      "Lawatan tempat menarik utama di Moscow",
+      "Solat Zohor & Asar (jamak) di masjid/surau berdekatan",
+      "Masa bebas & membeli-belah"
+     ],
+     "makan": "S,T,M"
+    },
+    {
+     "tajuk": "Pulang ke Malaysia",
+     "aktiviti": [
+      "Daftar keluar hotel",
+      "Pemindahan ke lapangan terbang",
+      "Tiba di KLIA — perjalanan tamat"
+     ],
+     "makan": "S"
+    }
+   ],
+   "termasuk": [
+    "Tiket penerbangan pergi-balik (kelas ekonomi)",
+    "Penginapan hotel (bilik berkongsi)",
+    "Makan halal seperti dalam itinerari",
+    "Pengangkutan persendirian sepanjang lawatan",
+    "Tour leader Muslim dari Malaysia",
+    "Tiket masuk lokasi dalam itinerari",
+    "Insurans perjalanan asas"
+   ],
+   "tidak": [
+    "Yuran visa (jika berkenaan)",
+    "Tip pemandu & pemandu pelancong tempatan",
+    "Lebihan bagasi",
+    "Perbelanjaan peribadi",
+    "Aktiviti pilihan di luar itinerari"
+   ],
+   "nota": [
+    "Pasport mesti sah sekurang-kurangnya 6 bulan dari tarikh berlepas.",
+    "Itinerari boleh berubah mengikut cuaca dan keadaan semasa.",
+    "Harga tertakluk kepada perubahan kadar tukaran wang dan cukai lapangan terbang."
+   ]
+  },
+  {
+   "id": "eropah-series-3negara",
+   "dest": "eropah",
+   "jenis": "series",
+   "nama": "Perancis – Swiss – Itali",
+   "hari": 10,
+   "malam": 8,
+   "harga": 11990,
+   "hotel": "Hotel 3–4★",
+   "kumpulan": "Maks. 30 orang",
+   "laluan": [
+    "Paris",
+    "Lucerne",
+    "Interlaken",
+    "Milan",
+    "Venice"
+   ],
+   "tarikh": [
+    {
+     "t": "2027-04-20",
+     "s": "tersedia",
+     "k": 22
+    }
+   ],
+   "sorotan": [
+    "Menara Eiffel",
+    "Gunung Titlis",
+    "Gondola di Venice"
+   ],
+   "itinerari": [
+    {
+     "tajuk": "Berlepas dari KLIA",
+     "aktiviti": [
+      "Berkumpul di KLIA 3 jam sebelum penerbangan",
+      "Taklimat ringkas oleh tour leader",
+      "Penerbangan ke Eropah"
+     ],
+     "makan": ""
+    },
+    {
+     "tajuk": "Jelajah Paris",
+     "aktiviti": [
+      "Lawatan tempat menarik utama di Paris",
+      "Solat Zohor & Asar (jamak) di masjid/surau berdekatan",
+      "Masa bebas & membeli-belah"
+     ],
+     "makan": "S,T,M"
+    },
+    {
+     "tajuk": "Jelajah Lucerne",
+     "aktiviti": [
+      "Lawatan tempat menarik utama di Lucerne",
+      "Solat Zohor & Asar (jamak) di masjid/surau berdekatan",
+      "Masa bebas & membeli-belah"
+     ],
+     "makan": "S,T,M"
+    },
+    {
+     "tajuk": "Jelajah Interlaken",
+     "aktiviti": [
+      "Lawatan tempat menarik utama di Interlaken",
+      "Solat Zohor & Asar (jamak) di masjid/surau berdekatan",
+      "Masa bebas & membeli-belah"
+     ],
+     "makan": "S,T,M"
+    },
+    {
+     "tajuk": "Jelajah Milan",
+     "aktiviti": [
+      "Lawatan tempat menarik utama di Milan",
+      "Solat Zohor & Asar (jamak) di masjid/surau berdekatan",
+      "Masa bebas & membeli-belah"
+     ],
+     "makan": "S,T,M"
+    },
+    {
+     "tajuk": "Jelajah Venice",
+     "aktiviti": [
+      "Lawatan tempat menarik utama di Venice",
+      "Solat Zohor & Asar (jamak) di masjid/surau berdekatan",
+      "Masa bebas & membeli-belah"
+     ],
+     "makan": "S,T,M"
+    },
+    {
+     "tajuk": "Jelajah Paris",
+     "aktiviti": [
+      "Lawatan tempat menarik utama di Paris",
+      "Solat Zohor & Asar (jamak) di masjid/surau berdekatan",
+      "Masa bebas & membeli-belah"
+     ],
+     "makan": "S,T,M"
+    },
+    {
+     "tajuk": "Jelajah Lucerne",
+     "aktiviti": [
+      "Lawatan tempat menarik utama di Lucerne",
+      "Solat Zohor & Asar (jamak) di masjid/surau berdekatan",
+      "Masa bebas & membeli-belah"
+     ],
+     "makan": "S,T,M"
+    },
+    {
+     "tajuk": "Jelajah Interlaken",
+     "aktiviti": [
+      "Lawatan tempat menarik utama di Interlaken",
+      "Solat Zohor & Asar (jamak) di masjid/surau berdekatan",
+      "Masa bebas & membeli-belah"
+     ],
+     "makan": "S,T,M"
+    },
+    {
+     "tajuk": "Pulang ke Malaysia",
+     "aktiviti": [
+      "Daftar keluar hotel",
+      "Pemindahan ke lapangan terbang",
+      "Tiba di KLIA — perjalanan tamat"
+     ],
+     "makan": "S"
+    }
+   ],
+   "termasuk": [
+    "Tiket penerbangan pergi-balik (kelas ekonomi)",
+    "Penginapan hotel (bilik berkongsi)",
+    "Makan halal seperti dalam itinerari",
+    "Pengangkutan persendirian sepanjang lawatan",
+    "Tour leader Muslim dari Malaysia",
+    "Tiket masuk lokasi dalam itinerari",
+    "Insurans perjalanan asas"
+   ],
+   "tidak": [
+    "Yuran visa (jika berkenaan)",
+    "Tip pemandu & pemandu pelancong tempatan",
+    "Lebihan bagasi",
+    "Perbelanjaan peribadi",
+    "Aktiviti pilihan di luar itinerari"
+   ],
+   "nota": [
+    "Pasport mesti sah sekurang-kurangnya 6 bulan dari tarikh berlepas.",
+    "Itinerari boleh berubah mengikut cuaca dan keadaan semasa.",
+    "Harga tertakluk kepada perubahan kadar tukaran wang dan cukai lapangan terbang."
+   ]
+  },
+  {
+   "id": "eropah-honeymoon-swiss",
+   "dest": "eropah",
+   "jenis": "honeymoon",
+   "nama": "Swiss Alps Berdua",
+   "hari": 7,
+   "malam": 5,
+   "harga": 14900,
+   "hotel": "Hotel 4–5★",
+   "kumpulan": "2 orang",
+   "laluan": [
+    "Zurich",
+    "Lucerne",
+    "Interlaken",
+    "Zermatt"
+   ],
+   "tarikh": "fleksibel",
+   "sorotan": [
+    "Glacier Express",
+    "Matterhorn",
+    "Makan malam di tepi tasik"
+   ],
+   "itinerari": [
+    {
+     "tajuk": "Berlepas dari KLIA",
+     "aktiviti": [
+      "Berkumpul di KLIA 3 jam sebelum penerbangan",
+      "Taklimat ringkas oleh tour leader",
+      "Penerbangan ke Eropah"
+     ],
+     "makan": ""
+    },
+    {
+     "tajuk": "Jelajah Zurich",
+     "aktiviti": [
+      "Lawatan tempat menarik utama di Zurich",
+      "Solat Zohor & Asar (jamak) di masjid/surau berdekatan",
+      "Masa bebas & membeli-belah"
+     ],
+     "makan": "S,T,M"
+    },
+    {
+     "tajuk": "Jelajah Lucerne",
+     "aktiviti": [
+      "Lawatan tempat menarik utama di Lucerne",
+      "Solat Zohor & Asar (jamak) di masjid/surau berdekatan",
+      "Masa bebas & membeli-belah"
+     ],
+     "makan": "S,T,M"
+    },
+    {
+     "tajuk": "Jelajah Interlaken",
+     "aktiviti": [
+      "Lawatan tempat menarik utama di Interlaken",
+      "Solat Zohor & Asar (jamak) di masjid/surau berdekatan",
+      "Masa bebas & membeli-belah"
+     ],
+     "makan": "S,T,M"
+    },
+    {
+     "tajuk": "Jelajah Zermatt",
+     "aktiviti": [
+      "Lawatan tempat menarik utama di Zermatt",
+      "Solat Zohor & Asar (jamak) di masjid/surau berdekatan",
+      "Masa bebas & membeli-belah"
+     ],
+     "makan": "S,T,M"
+    },
+    {
+     "tajuk": "Jelajah Zurich",
+     "aktiviti": [
+      "Lawatan tempat menarik utama di Zurich",
+      "Solat Zohor & Asar (jamak) di masjid/surau berdekatan",
+      "Masa bebas & membeli-belah"
+     ],
+     "makan": "S,T,M"
+    },
+    {
+     "tajuk": "Pulang ke Malaysia",
+     "aktiviti": [
+      "Daftar keluar hotel",
+      "Pemindahan ke lapangan terbang",
+      "Tiba di KLIA — perjalanan tamat"
+     ],
+     "makan": "S"
+    }
+   ],
+   "termasuk": [
+    "Tiket penerbangan pergi-balik (kelas ekonomi)",
+    "Penginapan hotel (bilik berkongsi)",
+    "Makan halal seperti dalam itinerari",
+    "Pengangkutan persendirian sepanjang lawatan",
+    "Tour leader Muslim dari Malaysia",
+    "Tiket masuk lokasi dalam itinerari",
+    "Insurans perjalanan asas"
+   ],
+   "tidak": [
+    "Yuran visa (jika berkenaan)",
+    "Tip pemandu & pemandu pelancong tempatan",
+    "Lebihan bagasi",
+    "Perbelanjaan peribadi",
+    "Aktiviti pilihan di luar itinerari"
+   ],
+   "nota": [
+    "Pasport mesti sah sekurang-kurangnya 6 bulan dari tarikh berlepas.",
+    "Itinerari boleh berubah mengikut cuaca dan keadaan semasa.",
+    "Harga tertakluk kepada perubahan kadar tukaran wang dan cukai lapangan terbang."
+   ]
+  },
+  {
+   "id": "machu-picchu-adventure",
+   "dest": "machu-picchu",
+   "jenis": "adventure",
+   "nama": "Peru & Machu Picchu",
+   "hari": 12,
+   "malam": 9,
+   "harga": 18900,
+   "hotel": "Hotel 4★",
+   "kumpulan": "4 – 12 orang",
+   "badge": "Impian",
+   "laluan": [
+    "Lima",
+    "Cusco",
+    "Lembah Suci",
+    "Machu Picchu"
+   ],
+   "tarikh": "fleksibel",
+   "sorotan": [
+    "Matahari terbit di Machu Picchu",
+    "Rainbow Mountain",
+    "Kereta api Vistadome"
+   ],
+   "itinerari": [
+    {
+     "tajuk": "Berlepas dari KLIA",
+     "aktiviti": [
+      "Berkumpul di KLIA 3 jam sebelum penerbangan",
+      "Taklimat ringkas oleh tour leader",
+      "Penerbangan ke Amerika Selatan & Machu Picchu"
+     ],
+     "makan": ""
+    },
+    {
+     "tajuk": "Jelajah Lima",
+     "aktiviti": [
+      "Lawatan tempat menarik utama di Lima",
+      "Solat Zohor & Asar (jamak) di masjid/surau berdekatan",
+      "Masa bebas & membeli-belah"
+     ],
+     "makan": "S,T,M"
+    },
+    {
+     "tajuk": "Jelajah Cusco",
+     "aktiviti": [
+      "Lawatan tempat menarik utama di Cusco",
+      "Solat Zohor & Asar (jamak) di masjid/surau berdekatan",
+      "Masa bebas & membeli-belah"
+     ],
+     "makan": "S,T,M"
+    },
+    {
+     "tajuk": "Jelajah Lembah Suci",
+     "aktiviti": [
+      "Lawatan tempat menarik utama di Lembah Suci",
+      "Solat Zohor & Asar (jamak) di masjid/surau berdekatan",
+      "Masa bebas & membeli-belah"
+     ],
+     "makan": "S,T,M"
+    },
+    {
+     "tajuk": "Jelajah Machu Picchu",
+     "aktiviti": [
+      "Lawatan tempat menarik utama di Machu Picchu",
+      "Solat Zohor & Asar (jamak) di masjid/surau berdekatan",
+      "Masa bebas & membeli-belah"
+     ],
+     "makan": "S,T,M"
+    },
+    {
+     "tajuk": "Jelajah Lima",
+     "aktiviti": [
+      "Lawatan tempat menarik utama di Lima",
+      "Solat Zohor & Asar (jamak) di masjid/surau berdekatan",
+      "Masa bebas & membeli-belah"
+     ],
+     "makan": "S,T,M"
+    },
+    {
+     "tajuk": "Jelajah Cusco",
+     "aktiviti": [
+      "Lawatan tempat menarik utama di Cusco",
+      "Solat Zohor & Asar (jamak) di masjid/surau berdekatan",
+      "Masa bebas & membeli-belah"
+     ],
+     "makan": "S,T,M"
+    },
+    {
+     "tajuk": "Jelajah Lembah Suci",
+     "aktiviti": [
+      "Lawatan tempat menarik utama di Lembah Suci",
+      "Solat Zohor & Asar (jamak) di masjid/surau berdekatan",
+      "Masa bebas & membeli-belah"
+     ],
+     "makan": "S,T,M"
+    },
+    {
+     "tajuk": "Jelajah Machu Picchu",
+     "aktiviti": [
+      "Lawatan tempat menarik utama di Machu Picchu",
+      "Solat Zohor & Asar (jamak) di masjid/surau berdekatan",
+      "Masa bebas & membeli-belah"
+     ],
+     "makan": "S,T,M"
+    },
+    {
+     "tajuk": "Jelajah Lima",
+     "aktiviti": [
+      "Lawatan tempat menarik utama di Lima",
+      "Solat Zohor & Asar (jamak) di masjid/surau berdekatan",
+      "Masa bebas & membeli-belah"
+     ],
+     "makan": "S,T,M"
+    },
+    {
+     "tajuk": "Jelajah Cusco",
+     "aktiviti": [
+      "Lawatan tempat menarik utama di Cusco",
+      "Solat Zohor & Asar (jamak) di masjid/surau berdekatan",
+      "Masa bebas & membeli-belah"
+     ],
+     "makan": "S,T,M"
+    },
+    {
+     "tajuk": "Pulang ke Malaysia",
+     "aktiviti": [
+      "Daftar keluar hotel",
+      "Pemindahan ke lapangan terbang",
+      "Tiba di KLIA — perjalanan tamat"
+     ],
+     "makan": "S"
+    }
+   ],
+   "termasuk": [
+    "Tiket penerbangan pergi-balik (kelas ekonomi)",
+    "Penginapan hotel (bilik berkongsi)",
+    "Makan halal seperti dalam itinerari",
+    "Pengangkutan persendirian sepanjang lawatan",
+    "Tour leader Muslim dari Malaysia",
+    "Tiket masuk lokasi dalam itinerari",
+    "Insurans perjalanan asas"
+   ],
+   "tidak": [
+    "Yuran visa (jika berkenaan)",
+    "Tip pemandu & pemandu pelancong tempatan",
+    "Lebihan bagasi",
+    "Perbelanjaan peribadi",
+    "Aktiviti pilihan di luar itinerari"
+   ],
+   "nota": [
+    "Pasport mesti sah sekurang-kurangnya 6 bulan dari tarikh berlepas.",
+    "Itinerari boleh berubah mengikut cuaca dan keadaan semasa.",
+    "Harga tertakluk kepada perubahan kadar tukaran wang dan cukai lapangan terbang."
+   ]
+  },
+  {
+   "id": "amerika-series-pantai-timur",
+   "dest": "amerika",
+   "jenis": "series",
+   "nama": "Pantai Timur Amerika",
+   "hari": 10,
+   "malam": 7,
+   "harga": 13990,
+   "hotel": "Hotel 3–4★",
+   "kumpulan": "Maks. 25 orang",
+   "laluan": [
+    "New York",
+    "Philadelphia",
+    "Washington DC",
+    "Niagara"
+   ],
+   "tarikh": [
+    {
+     "t": "2027-05-06",
+     "s": "tersedia",
+     "k": 19
+    }
+   ],
+   "sorotan": [
+    "Patung Liberty",
+    "Air Terjun Niagara",
+    "Rumah Putih"
+   ],
+   "itinerari": [
+    {
+     "tajuk": "Berlepas dari KLIA",
+     "aktiviti": [
+      "Berkumpul di KLIA 3 jam sebelum penerbangan",
+      "Taklimat ringkas oleh tour leader",
+      "Penerbangan ke Amerika Syarikat"
+     ],
+     "makan": ""
+    },
+    {
+     "tajuk": "Jelajah New York",
+     "aktiviti": [
+      "Lawatan tempat menarik utama di New York",
+      "Solat Zohor & Asar (jamak) di masjid/surau berdekatan",
+      "Masa bebas & membeli-belah"
+     ],
+     "makan": "S,T,M"
+    },
+    {
+     "tajuk": "Jelajah Philadelphia",
+     "aktiviti": [
+      "Lawatan tempat menarik utama di Philadelphia",
+      "Solat Zohor & Asar (jamak) di masjid/surau berdekatan",
+      "Masa bebas & membeli-belah"
+     ],
+     "makan": "S,T,M"
+    },
+    {
+     "tajuk": "Jelajah Washington DC",
+     "aktiviti": [
+      "Lawatan tempat menarik utama di Washington DC",
+      "Solat Zohor & Asar (jamak) di masjid/surau berdekatan",
+      "Masa bebas & membeli-belah"
+     ],
+     "makan": "S,T,M"
+    },
+    {
+     "tajuk": "Jelajah Niagara",
+     "aktiviti": [
+      "Lawatan tempat menarik utama di Niagara",
+      "Solat Zohor & Asar (jamak) di masjid/surau berdekatan",
+      "Masa bebas & membeli-belah"
+     ],
+     "makan": "S,T,M"
+    },
+    {
+     "tajuk": "Jelajah New York",
+     "aktiviti": [
+      "Lawatan tempat menarik utama di New York",
+      "Solat Zohor & Asar (jamak) di masjid/surau berdekatan",
+      "Masa bebas & membeli-belah"
+     ],
+     "makan": "S,T,M"
+    },
+    {
+     "tajuk": "Jelajah Philadelphia",
+     "aktiviti": [
+      "Lawatan tempat menarik utama di Philadelphia",
+      "Solat Zohor & Asar (jamak) di masjid/surau berdekatan",
+      "Masa bebas & membeli-belah"
+     ],
+     "makan": "S,T,M"
+    },
+    {
+     "tajuk": "Jelajah Washington DC",
+     "aktiviti": [
+      "Lawatan tempat menarik utama di Washington DC",
+      "Solat Zohor & Asar (jamak) di masjid/surau berdekatan",
+      "Masa bebas & membeli-belah"
+     ],
+     "makan": "S,T,M"
+    },
+    {
+     "tajuk": "Jelajah Niagara",
+     "aktiviti": [
+      "Lawatan tempat menarik utama di Niagara",
+      "Solat Zohor & Asar (jamak) di masjid/surau berdekatan",
+      "Masa bebas & membeli-belah"
+     ],
+     "makan": "S,T,M"
+    },
+    {
+     "tajuk": "Pulang ke Malaysia",
+     "aktiviti": [
+      "Daftar keluar hotel",
+      "Pemindahan ke lapangan terbang",
+      "Tiba di KLIA — perjalanan tamat"
+     ],
+     "makan": "S"
+    }
+   ],
+   "termasuk": [
+    "Tiket penerbangan pergi-balik (kelas ekonomi)",
+    "Penginapan hotel (bilik berkongsi)",
+    "Makan halal seperti dalam itinerari",
+    "Pengangkutan persendirian sepanjang lawatan",
+    "Tour leader Muslim dari Malaysia",
+    "Tiket masuk lokasi dalam itinerari",
+    "Insurans perjalanan asas"
+   ],
+   "tidak": [
+    "Yuran visa (jika berkenaan)",
+    "Tip pemandu & pemandu pelancong tempatan",
+    "Lebihan bagasi",
+    "Perbelanjaan peribadi",
+    "Aktiviti pilihan di luar itinerari"
+   ],
+   "nota": [
+    "Pasport mesti sah sekurang-kurangnya 6 bulan dari tarikh berlepas.",
+    "Itinerari boleh berubah mengikut cuaca dan keadaan semasa.",
+    "Harga tertakluk kepada perubahan kadar tukaran wang dan cukai lapangan terbang."
+   ]
+  },
+  {
+   "id": "alaska-adventure-aurora",
+   "dest": "alaska",
+   "jenis": "adventure",
+   "nama": "Alaska Aurora & Glasier",
+   "hari": 9,
+   "malam": 7,
+   "harga": 16900,
+   "hotel": "Lodge & Hotel 4★",
+   "kumpulan": "4 – 12 orang",
+   "laluan": [
+    "Anchorage",
+    "Fairbanks",
+    "Denali"
+   ],
+   "tarikh": [
+    {
+     "t": "2027-02-20",
+     "s": "tersedia",
+     "k": 9
+    }
+   ],
+   "sorotan": [
+    "Aurora borealis",
+    "Taman Negara Denali",
+    "Kereta salji anjing husky"
+   ],
+   "itinerari": [
+    {
+     "tajuk": "Berlepas dari KLIA",
+     "aktiviti": [
+      "Berkumpul di KLIA 3 jam sebelum penerbangan",
+      "Taklimat ringkas oleh tour leader",
+      "Penerbangan ke Alaska"
+     ],
+     "makan": ""
+    },
+    {
+     "tajuk": "Jelajah Anchorage",
+     "aktiviti": [
+      "Lawatan tempat menarik utama di Anchorage",
+      "Solat Zohor & Asar (jamak) di masjid/surau berdekatan",
+      "Masa bebas & membeli-belah"
+     ],
+     "makan": "S,T,M"
+    },
+    {
+     "tajuk": "Jelajah Fairbanks",
+     "aktiviti": [
+      "Lawatan tempat menarik utama di Fairbanks",
+      "Solat Zohor & Asar (jamak) di masjid/surau berdekatan",
+      "Masa bebas & membeli-belah"
+     ],
+     "makan": "S,T,M"
+    },
+    {
+     "tajuk": "Jelajah Denali",
+     "aktiviti": [
+      "Lawatan tempat menarik utama di Denali",
+      "Solat Zohor & Asar (jamak) di masjid/surau berdekatan",
+      "Masa bebas & membeli-belah"
+     ],
+     "makan": "S,T,M"
+    },
+    {
+     "tajuk": "Jelajah Anchorage",
+     "aktiviti": [
+      "Lawatan tempat menarik utama di Anchorage",
+      "Solat Zohor & Asar (jamak) di masjid/surau berdekatan",
+      "Masa bebas & membeli-belah"
+     ],
+     "makan": "S,T,M"
+    },
+    {
+     "tajuk": "Jelajah Fairbanks",
+     "aktiviti": [
+      "Lawatan tempat menarik utama di Fairbanks",
+      "Solat Zohor & Asar (jamak) di masjid/surau berdekatan",
+      "Masa bebas & membeli-belah"
+     ],
+     "makan": "S,T,M"
+    },
+    {
+     "tajuk": "Jelajah Denali",
+     "aktiviti": [
+      "Lawatan tempat menarik utama di Denali",
+      "Solat Zohor & Asar (jamak) di masjid/surau berdekatan",
+      "Masa bebas & membeli-belah"
+     ],
+     "makan": "S,T,M"
+    },
+    {
+     "tajuk": "Jelajah Anchorage",
+     "aktiviti": [
+      "Lawatan tempat menarik utama di Anchorage",
+      "Solat Zohor & Asar (jamak) di masjid/surau berdekatan",
+      "Masa bebas & membeli-belah"
+     ],
+     "makan": "S,T,M"
+    },
+    {
+     "tajuk": "Pulang ke Malaysia",
+     "aktiviti": [
+      "Daftar keluar hotel",
+      "Pemindahan ke lapangan terbang",
+      "Tiba di KLIA — perjalanan tamat"
+     ],
+     "makan": "S"
+    }
+   ],
+   "termasuk": [
+    "Tiket penerbangan pergi-balik (kelas ekonomi)",
+    "Penginapan hotel (bilik berkongsi)",
+    "Makan halal seperti dalam itinerari",
+    "Pengangkutan persendirian sepanjang lawatan",
+    "Tour leader Muslim dari Malaysia",
+    "Tiket masuk lokasi dalam itinerari",
+    "Insurans perjalanan asas"
+   ],
+   "tidak": [
+    "Yuran visa (jika berkenaan)",
+    "Tip pemandu & pemandu pelancong tempatan",
+    "Lebihan bagasi",
+    "Perbelanjaan peribadi",
+    "Aktiviti pilihan di luar itinerari"
+   ],
+   "nota": [
+    "Pasport mesti sah sekurang-kurangnya 6 bulan dari tarikh berlepas.",
+    "Itinerari boleh berubah mengikut cuaca dan keadaan semasa.",
+    "Harga tertakluk kepada perubahan kadar tukaran wang dan cukai lapangan terbang."
+   ]
+  },
+  {
+   "id": "nz-private-utara-selatan",
+   "dest": "new-zealand",
+   "jenis": "private",
+   "nama": "Pulau Utara & Selatan",
+   "hari": 10,
+   "malam": 8,
+   "harga": 12490,
+   "hotel": "Hotel 4★",
+   "kumpulan": "2 – 12 orang",
+   "laluan": [
+    "Auckland",
+    "Rotorua",
+    "Queenstown",
+    "Milford Sound"
+   ],
+   "tarikh": "fleksibel",
+   "sorotan": [
+    "Hobbiton",
+    "Milford Sound",
+    "Pengembaraan di Queenstown"
+   ],
+   "itinerari": [
+    {
+     "tajuk": "Berlepas dari KLIA",
+     "aktiviti": [
+      "Berkumpul di KLIA 3 jam sebelum penerbangan",
+      "Taklimat ringkas oleh tour leader",
+      "Penerbangan ke Auckland & New Zealand"
+     ],
+     "makan": ""
+    },
+    {
+     "tajuk": "Jelajah Auckland",
+     "aktiviti": [
+      "Lawatan tempat menarik utama di Auckland",
+      "Solat Zohor & Asar (jamak) di masjid/surau berdekatan",
+      "Masa bebas & membeli-belah"
+     ],
+     "makan": "S,T,M"
+    },
+    {
+     "tajuk": "Jelajah Rotorua",
+     "aktiviti": [
+      "Lawatan tempat menarik utama di Rotorua",
+      "Solat Zohor & Asar (jamak) di masjid/surau berdekatan",
+      "Masa bebas & membeli-belah"
+     ],
+     "makan": "S,T,M"
+    },
+    {
+     "tajuk": "Jelajah Queenstown",
+     "aktiviti": [
+      "Lawatan tempat menarik utama di Queenstown",
+      "Solat Zohor & Asar (jamak) di masjid/surau berdekatan",
+      "Masa bebas & membeli-belah"
+     ],
+     "makan": "S,T,M"
+    },
+    {
+     "tajuk": "Jelajah Milford Sound",
+     "aktiviti": [
+      "Lawatan tempat menarik utama di Milford Sound",
+      "Solat Zohor & Asar (jamak) di masjid/surau berdekatan",
+      "Masa bebas & membeli-belah"
+     ],
+     "makan": "S,T,M"
+    },
+    {
+     "tajuk": "Jelajah Auckland",
+     "aktiviti": [
+      "Lawatan tempat menarik utama di Auckland",
+      "Solat Zohor & Asar (jamak) di masjid/surau berdekatan",
+      "Masa bebas & membeli-belah"
+     ],
+     "makan": "S,T,M"
+    },
+    {
+     "tajuk": "Jelajah Rotorua",
+     "aktiviti": [
+      "Lawatan tempat menarik utama di Rotorua",
+      "Solat Zohor & Asar (jamak) di masjid/surau berdekatan",
+      "Masa bebas & membeli-belah"
+     ],
+     "makan": "S,T,M"
+    },
+    {
+     "tajuk": "Jelajah Queenstown",
+     "aktiviti": [
+      "Lawatan tempat menarik utama di Queenstown",
+      "Solat Zohor & Asar (jamak) di masjid/surau berdekatan",
+      "Masa bebas & membeli-belah"
+     ],
+     "makan": "S,T,M"
+    },
+    {
+     "tajuk": "Jelajah Milford Sound",
+     "aktiviti": [
+      "Lawatan tempat menarik utama di Milford Sound",
+      "Solat Zohor & Asar (jamak) di masjid/surau berdekatan",
+      "Masa bebas & membeli-belah"
+     ],
+     "makan": "S,T,M"
+    },
+    {
+     "tajuk": "Pulang ke Malaysia",
+     "aktiviti": [
+      "Daftar keluar hotel",
+      "Pemindahan ke lapangan terbang",
+      "Tiba di KLIA — perjalanan tamat"
+     ],
+     "makan": "S"
+    }
+   ],
+   "termasuk": [
+    "Tiket penerbangan pergi-balik (kelas ekonomi)",
+    "Penginapan hotel (bilik berkongsi)",
+    "Makan halal seperti dalam itinerari",
+    "Pengangkutan persendirian sepanjang lawatan",
+    "Tour leader Muslim dari Malaysia",
+    "Tiket masuk lokasi dalam itinerari",
+    "Insurans perjalanan asas"
+   ],
+   "tidak": [
+    "Yuran visa (jika berkenaan)",
+    "Tip pemandu & pemandu pelancong tempatan",
+    "Lebihan bagasi",
+    "Perbelanjaan peribadi",
+    "Aktiviti pilihan di luar itinerari"
+   ],
+   "nota": [
+    "Pasport mesti sah sekurang-kurangnya 6 bulan dari tarikh berlepas.",
+    "Itinerari boleh berubah mengikut cuaca dan keadaan semasa.",
+    "Harga tertakluk kepada perubahan kadar tukaran wang dan cukai lapangan terbang."
+   ]
+  },
+  {
+   "id": "nz-honeymoon",
+   "dest": "new-zealand",
+   "jenis": "honeymoon",
+   "nama": "Queenstown Romantik",
+   "hari": 7,
+   "malam": 5,
+   "harga": 11990,
+   "hotel": "Hotel 5★",
+   "kumpulan": "2 orang",
+   "laluan": [
+    "Queenstown",
+    "Wanaka",
+    "Tekapo"
+   ],
+   "tarikh": "fleksibel",
+   "sorotan": [
+    "Bintang di Tasik Tekapo",
+    "Pokok Wanaka",
+    "Gondola Skyline"
+   ],
+   "itinerari": [
+    {
+     "tajuk": "Berlepas dari KLIA",
+     "aktiviti": [
+      "Berkumpul di KLIA 3 jam sebelum penerbangan",
+      "Taklimat ringkas oleh tour leader",
+      "Penerbangan ke Auckland & New Zealand"
+     ],
+     "makan": ""
+    },
+    {
+     "tajuk": "Jelajah Queenstown",
+     "aktiviti": [
+      "Lawatan tempat menarik utama di Queenstown",
+      "Solat Zohor & Asar (jamak) di masjid/surau berdekatan",
+      "Masa bebas & membeli-belah"
+     ],
+     "makan": "S,T,M"
+    },
+    {
+     "tajuk": "Jelajah Wanaka",
+     "aktiviti": [
+      "Lawatan tempat menarik utama di Wanaka",
+      "Solat Zohor & Asar (jamak) di masjid/surau berdekatan",
+      "Masa bebas & membeli-belah"
+     ],
+     "makan": "S,T,M"
+    },
+    {
+     "tajuk": "Jelajah Tekapo",
+     "aktiviti": [
+      "Lawatan tempat menarik utama di Tekapo",
+      "Solat Zohor & Asar (jamak) di masjid/surau berdekatan",
+      "Masa bebas & membeli-belah"
+     ],
+     "makan": "S,T,M"
+    },
+    {
+     "tajuk": "Jelajah Queenstown",
+     "aktiviti": [
+      "Lawatan tempat menarik utama di Queenstown",
+      "Solat Zohor & Asar (jamak) di masjid/surau berdekatan",
+      "Masa bebas & membeli-belah"
+     ],
+     "makan": "S,T,M"
+    },
+    {
+     "tajuk": "Jelajah Wanaka",
+     "aktiviti": [
+      "Lawatan tempat menarik utama di Wanaka",
+      "Solat Zohor & Asar (jamak) di masjid/surau berdekatan",
+      "Masa bebas & membeli-belah"
+     ],
+     "makan": "S,T,M"
+    },
+    {
+     "tajuk": "Pulang ke Malaysia",
+     "aktiviti": [
+      "Daftar keluar hotel",
+      "Pemindahan ke lapangan terbang",
+      "Tiba di KLIA — perjalanan tamat"
+     ],
+     "makan": "S"
+    }
+   ],
+   "termasuk": [
+    "Tiket penerbangan pergi-balik (kelas ekonomi)",
+    "Penginapan hotel (bilik berkongsi)",
+    "Makan halal seperti dalam itinerari",
+    "Pengangkutan persendirian sepanjang lawatan",
+    "Tour leader Muslim dari Malaysia",
+    "Tiket masuk lokasi dalam itinerari",
+    "Insurans perjalanan asas"
+   ],
+   "tidak": [
+    "Yuran visa (jika berkenaan)",
+    "Tip pemandu & pemandu pelancong tempatan",
+    "Lebihan bagasi",
+    "Perbelanjaan peribadi",
+    "Aktiviti pilihan di luar itinerari"
+   ],
+   "nota": [
+    "Pasport mesti sah sekurang-kurangnya 6 bulan dari tarikh berlepas.",
+    "Itinerari boleh berubah mengikut cuaca dan keadaan semasa.",
+    "Harga tertakluk kepada perubahan kadar tukaran wang dan cukai lapangan terbang."
+   ]
+  },
+  {
+   "id": "australia-private-melbourne",
+   "dest": "australia",
+   "jenis": "private",
+   "nama": "Melbourne & Great Ocean Road",
+   "hari": 6,
+   "malam": 4,
+   "harga": 5990,
+   "hotel": "Hotel 4★",
+   "kumpulan": "2 – 12 orang",
+   "laluan": [
+    "Melbourne",
+    "Great Ocean Road",
+    "Phillip Island"
+   ],
+   "tarikh": "fleksibel",
+   "sorotan": [
+    "Twelve Apostles",
+    "Parade penguin",
+    "Puffing Billy"
+   ],
+   "itinerari": [
+    {
+     "tajuk": "Berlepas dari KLIA",
+     "aktiviti": [
+      "Berkumpul di KLIA 3 jam sebelum penerbangan",
+      "Taklimat ringkas oleh tour leader",
+      "Penerbangan ke Australia"
+     ],
+     "makan": ""
+    },
+    {
+     "tajuk": "Jelajah Melbourne",
+     "aktiviti": [
+      "Lawatan tempat menarik utama di Melbourne",
+      "Solat Zohor & Asar (jamak) di masjid/surau berdekatan",
+      "Masa bebas & membeli-belah"
+     ],
+     "makan": "S,T,M"
+    },
+    {
+     "tajuk": "Jelajah Great Ocean Road",
+     "aktiviti": [
+      "Lawatan tempat menarik utama di Great Ocean Road",
+      "Solat Zohor & Asar (jamak) di masjid/surau berdekatan",
+      "Masa bebas & membeli-belah"
+     ],
+     "makan": "S,T,M"
+    },
+    {
+     "tajuk": "Jelajah Phillip Island",
+     "aktiviti": [
+      "Lawatan tempat menarik utama di Phillip Island",
+      "Solat Zohor & Asar (jamak) di masjid/surau berdekatan",
+      "Masa bebas & membeli-belah"
+     ],
+     "makan": "S,T,M"
+    },
+    {
+     "tajuk": "Jelajah Melbourne",
+     "aktiviti": [
+      "Lawatan tempat menarik utama di Melbourne",
+      "Solat Zohor & Asar (jamak) di masjid/surau berdekatan",
+      "Masa bebas & membeli-belah"
+     ],
+     "makan": "S,T,M"
+    },
+    {
+     "tajuk": "Pulang ke Malaysia",
+     "aktiviti": [
+      "Daftar keluar hotel",
+      "Pemindahan ke lapangan terbang",
+      "Tiba di KLIA — perjalanan tamat"
+     ],
+     "makan": "S"
+    }
+   ],
+   "termasuk": [
+    "Tiket penerbangan pergi-balik (kelas ekonomi)",
+    "Penginapan hotel (bilik berkongsi)",
+    "Makan halal seperti dalam itinerari",
+    "Pengangkutan persendirian sepanjang lawatan",
+    "Tour leader Muslim dari Malaysia",
+    "Tiket masuk lokasi dalam itinerari",
+    "Insurans perjalanan asas"
+   ],
+   "tidak": [
+    "Yuran visa (jika berkenaan)",
+    "Tip pemandu & pemandu pelancong tempatan",
+    "Lebihan bagasi",
+    "Perbelanjaan peribadi",
+    "Aktiviti pilihan di luar itinerari"
+   ],
+   "nota": [
+    "Pasport mesti sah sekurang-kurangnya 6 bulan dari tarikh berlepas.",
+    "Itinerari boleh berubah mengikut cuaca dan keadaan semasa.",
+    "Harga tertakluk kepada perubahan kadar tukaran wang dan cukai lapangan terbang."
+   ]
+  },
+  {
+   "id": "jordan-series-petra",
+   "dest": "jordan",
+   "jenis": "series",
+   "nama": "Jordan & Ziarah Anbiya",
+   "hari": 8,
+   "malam": 6,
+   "harga": 7990,
+   "hotel": "Hotel 4★",
+   "kumpulan": "Maks. 25 orang",
+   "badge": "Popular",
+   "laluan": [
+    "Amman",
+    "Petra",
+    "Wadi Rum",
+    "Laut Mati"
+   ],
+   "tarikh": [
+    {
+     "t": "2026-12-10",
+     "s": "hampir",
+     "k": 5
+    },
+    {
+     "t": "2027-03-15",
+     "s": "tersedia",
+     "k": 21
+    }
+   ],
+   "sorotan": [
+    "Petra — keajaiban dunia",
+    "Bermalam di khemah Wadi Rum",
+    "Terapung di Laut Mati",
+    "Ziarah makam para sahabat"
+   ],
+   "itinerari": [
+    {
+     "tajuk": "Berlepas dari KLIA",
+     "aktiviti": [
+      "Berkumpul di KLIA 3 jam sebelum penerbangan",
+      "Taklimat ringkas oleh tour leader",
+      "Penerbangan ke Jordan"
+     ],
+     "makan": ""
+    },
+    {
+     "tajuk": "Jelajah Amman",
+     "aktiviti": [
+      "Lawatan tempat menarik utama di Amman",
+      "Solat Zohor & Asar (jamak) di masjid/surau berdekatan",
+      "Masa bebas & membeli-belah"
+     ],
+     "makan": "S,T,M"
+    },
+    {
+     "tajuk": "Jelajah Petra",
+     "aktiviti": [
+      "Lawatan tempat menarik utama di Petra",
+      "Solat Zohor & Asar (jamak) di masjid/surau berdekatan",
+      "Masa bebas & membeli-belah"
+     ],
+     "makan": "S,T,M"
+    },
+    {
+     "tajuk": "Jelajah Wadi Rum",
+     "aktiviti": [
+      "Lawatan tempat menarik utama di Wadi Rum",
+      "Solat Zohor & Asar (jamak) di masjid/surau berdekatan",
+      "Masa bebas & membeli-belah"
+     ],
+     "makan": "S,T,M"
+    },
+    {
+     "tajuk": "Jelajah Laut Mati",
+     "aktiviti": [
+      "Lawatan tempat menarik utama di Laut Mati",
+      "Solat Zohor & Asar (jamak) di masjid/surau berdekatan",
+      "Masa bebas & membeli-belah"
+     ],
+     "makan": "S,T,M"
+    },
+    {
+     "tajuk": "Jelajah Amman",
+     "aktiviti": [
+      "Lawatan tempat menarik utama di Amman",
+      "Solat Zohor & Asar (jamak) di masjid/surau berdekatan",
+      "Masa bebas & membeli-belah"
+     ],
+     "makan": "S,T,M"
+    },
+    {
+     "tajuk": "Jelajah Petra",
+     "aktiviti": [
+      "Lawatan tempat menarik utama di Petra",
+      "Solat Zohor & Asar (jamak) di masjid/surau berdekatan",
+      "Masa bebas & membeli-belah"
+     ],
+     "makan": "S,T,M"
+    },
+    {
+     "tajuk": "Pulang ke Malaysia",
+     "aktiviti": [
+      "Daftar keluar hotel",
+      "Pemindahan ke lapangan terbang",
+      "Tiba di KLIA — perjalanan tamat"
+     ],
+     "makan": "S"
+    }
+   ],
+   "termasuk": [
+    "Tiket penerbangan pergi-balik (kelas ekonomi)",
+    "Penginapan hotel (bilik berkongsi)",
+    "Makan halal seperti dalam itinerari",
+    "Pengangkutan persendirian sepanjang lawatan",
+    "Tour leader Muslim dari Malaysia",
+    "Tiket masuk lokasi dalam itinerari",
+    "Insurans perjalanan asas"
+   ],
+   "tidak": [
+    "Yuran visa (jika berkenaan)",
+    "Tip pemandu & pemandu pelancong tempatan",
+    "Lebihan bagasi",
+    "Perbelanjaan peribadi",
+    "Aktiviti pilihan di luar itinerari"
+   ],
+   "nota": [
+    "Pasport mesti sah sekurang-kurangnya 6 bulan dari tarikh berlepas.",
+    "Itinerari boleh berubah mengikut cuaca dan keadaan semasa.",
+    "Harga tertakluk kepada perubahan kadar tukaran wang dan cukai lapangan terbang."
+   ]
+  },
+  {
+   "id": "jordan-private",
+   "dest": "jordan",
+   "jenis": "private",
+   "nama": "Jordan Private Santai",
+   "hari": 7,
+   "malam": 5,
+   "harga": 8890,
+   "hotel": "Hotel 4–5★",
+   "kumpulan": "2 – 10 orang",
+   "laluan": [
+    "Amman",
+    "Petra",
+    "Wadi Rum",
+    "Laut Mati"
+   ],
+   "tarikh": "fleksibel",
+   "sorotan": [
+    "Jadual fleksibel",
+    "Jip 4x4 di Wadi Rum",
+    "Resort Laut Mati"
+   ],
+   "itinerari": [
+    {
+     "tajuk": "Berlepas dari KLIA",
+     "aktiviti": [
+      "Berkumpul di KLIA 3 jam sebelum penerbangan",
+      "Taklimat ringkas oleh tour leader",
+      "Penerbangan ke Jordan"
+     ],
+     "makan": ""
+    },
+    {
+     "tajuk": "Jelajah Amman",
+     "aktiviti": [
+      "Lawatan tempat menarik utama di Amman",
+      "Solat Zohor & Asar (jamak) di masjid/surau berdekatan",
+      "Masa bebas & membeli-belah"
+     ],
+     "makan": "S,T,M"
+    },
+    {
+     "tajuk": "Jelajah Petra",
+     "aktiviti": [
+      "Lawatan tempat menarik utama di Petra",
+      "Solat Zohor & Asar (jamak) di masjid/surau berdekatan",
+      "Masa bebas & membeli-belah"
+     ],
+     "makan": "S,T,M"
+    },
+    {
+     "tajuk": "Jelajah Wadi Rum",
+     "aktiviti": [
+      "Lawatan tempat menarik utama di Wadi Rum",
+      "Solat Zohor & Asar (jamak) di masjid/surau berdekatan",
+      "Masa bebas & membeli-belah"
+     ],
+     "makan": "S,T,M"
+    },
+    {
+     "tajuk": "Jelajah Laut Mati",
+     "aktiviti": [
+      "Lawatan tempat menarik utama di Laut Mati",
+      "Solat Zohor & Asar (jamak) di masjid/surau berdekatan",
+      "Masa bebas & membeli-belah"
+     ],
+     "makan": "S,T,M"
+    },
+    {
+     "tajuk": "Jelajah Amman",
+     "aktiviti": [
+      "Lawatan tempat menarik utama di Amman",
+      "Solat Zohor & Asar (jamak) di masjid/surau berdekatan",
+      "Masa bebas & membeli-belah"
+     ],
+     "makan": "S,T,M"
+    },
+    {
+     "tajuk": "Pulang ke Malaysia",
+     "aktiviti": [
+      "Daftar keluar hotel",
+      "Pemindahan ke lapangan terbang",
+      "Tiba di KLIA — perjalanan tamat"
+     ],
+     "makan": "S"
+    }
+   ],
+   "termasuk": [
+    "Tiket penerbangan pergi-balik (kelas ekonomi)",
+    "Penginapan hotel (bilik berkongsi)",
+    "Makan halal seperti dalam itinerari",
+    "Pengangkutan persendirian sepanjang lawatan",
+    "Tour leader Muslim dari Malaysia",
+    "Tiket masuk lokasi dalam itinerari",
+    "Insurans perjalanan asas"
+   ],
+   "tidak": [
+    "Yuran visa (jika berkenaan)",
+    "Tip pemandu & pemandu pelancong tempatan",
+    "Lebihan bagasi",
+    "Perbelanjaan peribadi",
+    "Aktiviti pilihan di luar itinerari"
+   ],
+   "nota": [
+    "Pasport mesti sah sekurang-kurangnya 6 bulan dari tarikh berlepas.",
+    "Itinerari boleh berubah mengikut cuaca dan keadaan semasa.",
+    "Harga tertakluk kepada perubahan kadar tukaran wang dan cukai lapangan terbang."
+   ]
+  },
+  {
+   "id": "mesir-series-nil",
+   "dest": "mesir",
+   "jenis": "series",
+   "nama": "Mesir & Kapal Sungai Nil",
+   "hari": 9,
+   "malam": 7,
+   "harga": 6990,
+   "hotel": "Hotel 4★ & Kapal Nil",
+   "kumpulan": "Maks. 25 orang",
+   "laluan": [
+    "Kaherah",
+    "Aswan",
+    "Luxor"
+   ],
+   "tarikh": [
+    {
+     "t": "2026-11-18",
+     "s": "tersedia",
+     "k": 16
+    },
+    {
+     "t": "2027-01-12",
+     "s": "tersedia",
+     "k": 25
+    }
+   ],
+   "sorotan": [
+    "Piramid Giza",
+    "Pelayaran Sungai Nil",
+    "Masjid Al-Azhar"
+   ],
+   "itinerari": [
+    {
+     "tajuk": "Berlepas dari KLIA",
+     "aktiviti": [
+      "Berkumpul di KLIA 3 jam sebelum penerbangan",
+      "Taklimat ringkas oleh tour leader",
+      "Penerbangan ke Mesir"
+     ],
+     "makan": ""
+    },
+    {
+     "tajuk": "Jelajah Kaherah",
+     "aktiviti": [
+      "Lawatan tempat menarik utama di Kaherah",
+      "Solat Zohor & Asar (jamak) di masjid/surau berdekatan",
+      "Masa bebas & membeli-belah"
+     ],
+     "makan": "S,T,M"
+    },
+    {
+     "tajuk": "Jelajah Aswan",
+     "aktiviti": [
+      "Lawatan tempat menarik utama di Aswan",
+      "Solat Zohor & Asar (jamak) di masjid/surau berdekatan",
+      "Masa bebas & membeli-belah"
+     ],
+     "makan": "S,T,M"
+    },
+    {
+     "tajuk": "Jelajah Luxor",
+     "aktiviti": [
+      "Lawatan tempat menarik utama di Luxor",
+      "Solat Zohor & Asar (jamak) di masjid/surau berdekatan",
+      "Masa bebas & membeli-belah"
+     ],
+     "makan": "S,T,M"
+    },
+    {
+     "tajuk": "Jelajah Kaherah",
+     "aktiviti": [
+      "Lawatan tempat menarik utama di Kaherah",
+      "Solat Zohor & Asar (jamak) di masjid/surau berdekatan",
+      "Masa bebas & membeli-belah"
+     ],
+     "makan": "S,T,M"
+    },
+    {
+     "tajuk": "Jelajah Aswan",
+     "aktiviti": [
+      "Lawatan tempat menarik utama di Aswan",
+      "Solat Zohor & Asar (jamak) di masjid/surau berdekatan",
+      "Masa bebas & membeli-belah"
+     ],
+     "makan": "S,T,M"
+    },
+    {
+     "tajuk": "Jelajah Luxor",
+     "aktiviti": [
+      "Lawatan tempat menarik utama di Luxor",
+      "Solat Zohor & Asar (jamak) di masjid/surau berdekatan",
+      "Masa bebas & membeli-belah"
+     ],
+     "makan": "S,T,M"
+    },
+    {
+     "tajuk": "Jelajah Kaherah",
+     "aktiviti": [
+      "Lawatan tempat menarik utama di Kaherah",
+      "Solat Zohor & Asar (jamak) di masjid/surau berdekatan",
+      "Masa bebas & membeli-belah"
+     ],
+     "makan": "S,T,M"
+    },
+    {
+     "tajuk": "Pulang ke Malaysia",
+     "aktiviti": [
+      "Daftar keluar hotel",
+      "Pemindahan ke lapangan terbang",
+      "Tiba di KLIA — perjalanan tamat"
+     ],
+     "makan": "S"
+    }
+   ],
+   "termasuk": [
+    "Tiket penerbangan pergi-balik (kelas ekonomi)",
+    "Penginapan hotel (bilik berkongsi)",
+    "Makan halal seperti dalam itinerari",
+    "Pengangkutan persendirian sepanjang lawatan",
+    "Tour leader Muslim dari Malaysia",
+    "Tiket masuk lokasi dalam itinerari",
+    "Insurans perjalanan asas"
+   ],
+   "tidak": [
+    "Yuran visa (jika berkenaan)",
+    "Tip pemandu & pemandu pelancong tempatan",
+    "Lebihan bagasi",
+    "Perbelanjaan peribadi",
+    "Aktiviti pilihan di luar itinerari"
+   ],
+   "nota": [
+    "Pasport mesti sah sekurang-kurangnya 6 bulan dari tarikh berlepas.",
+    "Itinerari boleh berubah mengikut cuaca dan keadaan semasa.",
+    "Harga tertakluk kepada perubahan kadar tukaran wang dan cukai lapangan terbang."
+   ]
+  },
+  {
+   "id": "asean-private-bandung",
+   "dest": "asean",
+   "jenis": "private",
+   "nama": "Bandung Keluarga",
+   "hari": 4,
+   "malam": 3,
+   "harga": 1490,
+   "hotel": "Hotel 4★",
+   "kumpulan": "2 – 20 orang",
+   "laluan": [
+    "Bandung",
+    "Lembang"
+   ],
+   "tarikh": "fleksibel",
+   "sorotan": [
+    "Kawah Putih",
+    "Floating Market Lembang",
+    "Membeli-belah di Pasar Baru"
+   ],
+   "itinerari": [
+    {
+     "tajuk": "Berlepas dari KLIA",
+     "aktiviti": [
+      "Berkumpul di KLIA 3 jam sebelum penerbangan",
+      "Taklimat ringkas oleh tour leader",
+      "Penerbangan ke Asean"
+     ],
+     "makan": ""
+    },
+    {
+     "tajuk": "Jelajah Bandung",
+     "aktiviti": [
+      "Lawatan tempat menarik utama di Bandung",
+      "Solat Zohor & Asar (jamak) di masjid/surau berdekatan",
+      "Masa bebas & membeli-belah"
+     ],
+     "makan": "S,T,M"
+    },
+    {
+     "tajuk": "Jelajah Lembang",
+     "aktiviti": [
+      "Lawatan tempat menarik utama di Lembang",
+      "Solat Zohor & Asar (jamak) di masjid/surau berdekatan",
+      "Masa bebas & membeli-belah"
+     ],
+     "makan": "S,T,M"
+    },
+    {
+     "tajuk": "Pulang ke Malaysia",
+     "aktiviti": [
+      "Daftar keluar hotel",
+      "Pemindahan ke lapangan terbang",
+      "Tiba di KLIA — perjalanan tamat"
+     ],
+     "makan": "S"
+    }
+   ],
+   "termasuk": [
+    "Tiket penerbangan pergi-balik (kelas ekonomi)",
+    "Penginapan hotel (bilik berkongsi)",
+    "Makan halal seperti dalam itinerari",
+    "Pengangkutan persendirian sepanjang lawatan",
+    "Tour leader Muslim dari Malaysia",
+    "Tiket masuk lokasi dalam itinerari",
+    "Insurans perjalanan asas"
+   ],
+   "tidak": [
+    "Yuran visa (jika berkenaan)",
+    "Tip pemandu & pemandu pelancong tempatan",
+    "Lebihan bagasi",
+    "Perbelanjaan peribadi",
+    "Aktiviti pilihan di luar itinerari"
+   ],
+   "nota": [
+    "Pasport mesti sah sekurang-kurangnya 6 bulan dari tarikh berlepas.",
+    "Itinerari boleh berubah mengikut cuaca dan keadaan semasa.",
+    "Harga tertakluk kepada perubahan kadar tukaran wang dan cukai lapangan terbang."
+   ]
+  },
+  {
+   "id": "perhentian-private",
+   "dest": "perhentian",
+   "jenis": "private",
+   "nama": "Perhentian Snorkeling",
+   "hari": 3,
+   "malam": 2,
+   "harga": 690,
+   "hotel": "Resort tepi pantai",
+   "kumpulan": "2 – 30 orang",
+   "laluan": [
+    "Kuala Besut",
+    "Pulau Perhentian"
+   ],
+   "tarikh": "fleksibel",
+   "sorotan": [
+    "Snorkeling 5 lokasi",
+    "Pantai pasir putih",
+    "BBQ makan malam"
+   ],
+   "itinerari": [
+    {
+     "tajuk": "Berlepas dari KLIA",
+     "aktiviti": [
+      "Berkumpul di KLIA 3 jam sebelum penerbangan",
+      "Taklimat ringkas oleh tour leader",
+      "Penerbangan ke Pulau Perhentian"
+     ],
+     "makan": ""
+    },
+    {
+     "tajuk": "Jelajah Kuala Besut",
+     "aktiviti": [
+      "Lawatan tempat menarik utama di Kuala Besut",
+      "Solat Zohor & Asar (jamak) di masjid/surau berdekatan",
+      "Masa bebas & membeli-belah"
+     ],
+     "makan": "S,T,M"
+    },
+    {
+     "tajuk": "Pulang ke Malaysia",
+     "aktiviti": [
+      "Daftar keluar hotel",
+      "Pemindahan ke lapangan terbang",
+      "Tiba di KLIA — perjalanan tamat"
+     ],
+     "makan": "S"
+    }
+   ],
+   "termasuk": [
+    "Tiket penerbangan pergi-balik (kelas ekonomi)",
+    "Penginapan hotel (bilik berkongsi)",
+    "Makan halal seperti dalam itinerari",
+    "Pengangkutan persendirian sepanjang lawatan",
+    "Tour leader Muslim dari Malaysia",
+    "Tiket masuk lokasi dalam itinerari",
+    "Insurans perjalanan asas"
+   ],
+   "tidak": [
+    "Yuran visa (jika berkenaan)",
+    "Tip pemandu & pemandu pelancong tempatan",
+    "Lebihan bagasi",
+    "Perbelanjaan peribadi",
+    "Aktiviti pilihan di luar itinerari"
+   ],
+   "nota": [
+    "Pasport mesti sah sekurang-kurangnya 6 bulan dari tarikh berlepas.",
+    "Itinerari boleh berubah mengikut cuaca dan keadaan semasa.",
+    "Harga tertakluk kepada perubahan kadar tukaran wang dan cukai lapangan terbang."
+   ]
+  }
+ ],
+ "testimoni": [
+  {
+   "n": "Norpaizah Othman",
+   "p": "Pakej Turki",
+   "img": "images/av-norpaizah.jpg",
+   "q": "Alhamdulillah puashati bersama muslimtravelbug ke Turki 21-29 April. TL En Alwi sangat membantu dalam apa jua hal keadaan. En Alwi terbaik!"
+  },
+  {
+   "n": "Zeti Zainal",
+   "p": "Pakej Jepun",
+   "img": "images/av-zeti.jpg",
+   "q": "Trip ke Jepun sangat best! Itinerari teratur, makanan halal memang mudah, dan tour leader sangat friendly. Seronok travel dengan JJT!"
+  },
+  {
+   "n": "Farah U.",
+   "p": "Pakej Korea",
+   "img": "images/av-farah.jpg",
+   "q": "Semua berjalan lancar, penginapan selesa, memang rekomen. Trip yang memang tak dilupakan."
+  },
+  {
+   "n": "Nama Pelanggan",
+   "p": "Pakej Jordan",
+   "img": null,
+   "q": "Ruang untuk testimoni sebenar pelanggan. Kandungan ini contoh untuk paparan reka bentuk sahaja."
+  },
+  {
+   "n": "Nama Pelanggan",
+   "p": "Pakej Asia Tengah",
+   "img": null,
+   "q": "Ruang untuk testimoni sebenar pelanggan. Kandungan ini contoh untuk paparan reka bentuk sahaja."
+  },
+  {
+   "n": "Nama Pelanggan",
+   "p": "Pakej Mesir",
+   "img": null,
+   "q": "Ruang untuk testimoni sebenar pelanggan. Kandungan ini contoh untuk paparan reka bentuk sahaja."
+  }
+ ],
+ "blog": [
+  {
+   "id": "makanan-halal-jepun",
+   "tajuk": "7 Tips Cari Makanan Halal di Jepun",
+   "kat": "Halal & Solat",
+   "img": "images/jepun.jpg",
+   "tarikh": "2026-10-01",
+   "minit": 5,
+   "dest": "jepun",
+   "ringkas": "Dari app halal sampai cara baca label makanan di kedai serbaneka — panduan ringkas supaya trip Jepun anda tenang.",
+   "meta": "Panduan cari makanan halal di Jepun: app halal, label bahan, restoran Muslim-friendly dan tips kedai serbaneka untuk pelancong Muslim Malaysia.",
+   "isi": "<p class=\"lede\">Jepun kini antara destinasi paling mesra Muslim di Asia Timur. Restoran halal makin banyak di Tokyo, Osaka dan Kyoto — tapi di luar bandar besar, anda masih perlu sedikit persediaan. Ini 7 tips yang kami amalkan dalam setiap trip JJT.</p>\n\n<h2><span class=\"n\">1</span>Muat turun app pencari restoran halal</h2>\n<p>Sebelum berlepas, pasang app seperti <b>Halal Navi</b> atau <b>Halal Gourmet Japan</b>. Kedua-duanya menunjukkan restoran berdekatan dengan status halal, Muslim-friendly atau tanpa babi, berserta ruang solat berhampiran.</p>\n\n<h2><span class=\"n\">2</span>Faham beza \"halal\", \"Muslim-friendly\" dan \"pork-free\"</h2>\n<ul>\n<li><b>Halal</b> — disahkan oleh badan pensijilan; daging disembelih dan tiada alkohol.</li>\n<li><b>Muslim-friendly</b> — tiada babi, tetapi mungkin guna daging tidak disembelih atau sos beralkohol.</li>\n<li><b>Pork-free</b> — hanya tiada babi. Bahan lain perlu disemak sendiri.</li>\n</ul>\n\n<h2><span class=\"n\">3</span>Kenali perkataan Jepun pada label</h2>\n<p>Bawa tangkap layar senarai ini. Jika nampak perkataan berikut pada bungkusan, elakkan:</p>\n<ul>\n<li><b>豚 (buta)</b> / <b>ポーク</b> — babi</li>\n<li><b>ラード (rādo)</b> — lemak babi</li>\n<li><b>ゼラチン (zerachin)</b> — gelatin, selalunya daripada haiwan</li>\n<li><b>みりん (mirin)</b> dan <b>酒 (sake)</b> — mengandungi alkohol, biasa dalam sos teriyaki</li>\n</ul>\n\n<h2><span class=\"n\">4</span>Pilih menu laut dan sayur di kedai serbaneka</h2>\n<p>7-Eleven, Lawson dan FamilyMart memudahkan sarapan pagi. Onigiri isi <b>salmon (鮭)</b>, <b>tuna mayo (ツナマヨ)</b> atau <b>umeboshi (梅)</b> biasanya pilihan selamat — tetapi tetap baca label kerana sesetengah perisa guna sos beralkohol.</p>\n<div class=\"tip\"><svg class=\"ic \"><use href=\"#info\"/></svg><div><b>Tip JJT:</b> Gunakan kamera Google Translate pada label bahan. Ia membaca tulisan Jepun dengan cepat dan cukup tepat untuk semakan asas.</div></div>\n\n<h2><span class=\"n\">5</span>Rancang makan berhampiran masjid</h2>\n<p>Kawasan sekitar masjid seperti <b>Tokyo Camii</b> di Shibuya dan <b>Masjid Kobe</b> biasanya ada kedai makanan halal dan runcit Muslim. Satu perjalanan, dua keperluan: solat dan makan.</p>\n\n<h2><span class=\"n\">6</span>Bawa bekalan ringan dari Malaysia</h2>\n<p>Mi segera halal, serunding atau sambal botol memudahkan malam yang penat atau hari di kawasan luar bandar. Pastikan ia dibungkus kedap dan diisytiharkan jika diminta di kastam.</p>\n\n<h2><span class=\"n\">7</span>Pilih pakej yang sudah menyusun makan halal</h2>\n<p>Cara paling tenang ialah pakej yang sudah termasuk makan di restoran halal dan Muslim-friendly. Dalam pakej Jepun JJT, setiap hidangan yang termasuk telah disemak, dan tour leader Muslim membantu untuk makan di luar jadual.</p>"
+  },
+  {
+   "id": "musim-terbaik-new-zealand",
+   "tajuk": "Bila Masa Terbaik ke New Zealand? Panduan Ikut Musim",
+   "kat": "Panduan Destinasi",
+   "img": "images/new-zealand.jpg",
+   "tarikh": "2026-09-18",
+   "minit": 4,
+   "dest": "new-zealand",
+   "ringkas": "Musim di New Zealand terbalik dengan Eropah. Ketahui bulan terbaik untuk pemandangan, aktiviti salji atau bajet.",
+   "meta": "Bulan terbaik melancong ke New Zealand mengikut musim: musim panas, luruh, sejuk dan bunga, serta tips bajet dan cuti sekolah untuk pelancong Malaysia.",
+   "isi": "<p class=\"lede\">New Zealand terletak di hemisfera selatan, jadi musimnya terbalik berbanding Jepun, Korea atau Eropah. Disember ialah musim panas, Julai pula musim sejuk. Jadi \"bila masa terbaik\" bergantung kepada apa yang anda mahu lihat dan buat.</p>\n\n<h2><span class=\"n\">1</span>Ringkasan musim</h2>\n<div class=\"tbl\"><table>\n<thead><tr><th>Musim</th><th>Bulan</th><th>Sesuai untuk</th></tr></thead>\n<tbody>\n<tr><td><b>Panas</b></td><td>Dis – Feb</td><td>Cuaca cerah, hari panjang, aktiviti luar dan pantai</td></tr>\n<tr><td><b>Luruh</b></td><td>Mac – Mei</td><td>Daun kuning dan merah, cuaca selesa, kurang sesak</td></tr>\n<tr><td><b>Sejuk</b></td><td>Jun – Ogo</td><td>Salji dan ski di Queenstown, pemandangan gunung</td></tr>\n<tr><td><b>Bunga</b></td><td>Sep – Nov</td><td>Bunga lupin, anak biri-biri, harga lebih berpatutan</td></tr>\n</tbody></table></div>\n\n<h2><span class=\"n\">2</span>Untuk pemandangan terbaik: Mac – Mei</h2>\n<p>Musim luruh ialah pilihan ramai pelanggan JJT. Cuaca sejuk-sejuk nyaman, warna daun di Arrowtown dan Wanaka sangat cantik, dan tarikan utama tidak sesesak musim panas.</p>\n\n<h2><span class=\"n\">3</span>Untuk pengalaman salji: Jun – Ogos</h2>\n<p>Jika anak-anak teringin bermain salji, musim sejuk sesuai — dan ia bertembung dengan cuti sekolah pertengahan tahun di Malaysia. Bawa jaket tebal, sarung tangan dan kasut kalis air.</p>\n\n<h2><span class=\"n\">4</span>Untuk bajet: Sep – Nov</h2>\n<p>Musim bunga biasanya menawarkan harga tiket dan hotel yang lebih rendah berbanding musim puncak Disember. Ladang bunga lupin di Tekapo mula berkembang sekitar November.</p>\n<div class=\"tip\"><svg class=\"ic \"><use href=\"#info\"/></svg><div><b>Tip JJT:</b> Waktu siang sangat panjang pada musim panas — Maghrib boleh lewat hingga jam 9 malam. Semak waktu solat harian dengan app dan rancang makan malam lebih awal.</div></div>\n\n<h2><span class=\"n\">5</span>Perkara lain untuk dirancang</h2>\n<ul>\n<li><b>NZeTA</b> — pelancong Malaysia perlu memohon NZeTA sebelum berlepas. Semak syarat terkini di laman rasmi Imigresen New Zealand.</li>\n<li><b>Pandu kiri</b> — sama seperti Malaysia, jadi sesuai untuk trip pandu sendiri.</li>\n<li><b>Makanan halal</b> — mudah di Auckland dan Christchurch; di bandar kecil, rancang lebih awal.</li>\n</ul>"
+  },
+  {
+   "id": "senarai-semak-barang-travel",
+   "tajuk": "Senarai Semak Barang Wajib untuk Trip Muslim ke Luar Negara",
+   "kat": "Tips Travel",
+   "img": "images/asia-tengah.jpg",
+   "tarikh": "2026-09-05",
+   "minit": 4,
+   "dest": null,
+   "ringkas": "Dokumen, kelengkapan solat, ubat dan gajet — semak senarai ini sebelum zip beg supaya tiada yang tertinggal.",
+   "meta": "Senarai semak barang wajib sebelum travel ke luar negara untuk pelancong Muslim: dokumen, kelengkapan solat, kesihatan, gajet, pakaian dan kewangan.",
+   "isi": "<p class=\"lede\">Beg yang tersusun bermakna percutian yang lebih tenang. Ini senarai semak yang pasukan JJT kongsikan dengan setiap pelanggan sebelum berlepas. Tangkap layar atau cetak, dan tandakan satu per satu.</p>\n\n<div class=\"chk\">\n <div><h3><span class=\"ci\"><svg class=\"ic \"><use href=\"#passport\"/></svg></span>Dokumen</h3><ul>\n  <li>Pasport sah sekurang-kurangnya 6 bulan</li><li>Visa / kebenaran masuk (jika perlu)</li><li>Salinan pasport — cetak &amp; dalam telefon</li><li>Insurans perjalanan</li><li>Tiket &amp; tempahan hotel</li></ul></div>\n <div><h3><span class=\"ci\"><svg class=\"ic \"><use href=\"#f-mosque\"/></svg></span>Solat &amp; Ibadah</h3><ul>\n  <li>Sejadah travel yang ringan</li><li>Telekung nipis / kain pelikat</li><li>App waktu solat &amp; arah kiblat</li><li>Botol kecil untuk istinjak</li></ul></div>\n <div><h3><span class=\"ci\"><svg class=\"ic \"><use href=\"#shield\"/></svg></span>Kesihatan</h3><ul>\n  <li>Ubat peribadi + preskripsi doktor</li><li>Ubat demam, selsema &amp; perut</li><li>Pelembap &amp; pelindung matahari</li><li>Pembersih tangan</li></ul></div>\n <div><h3><span class=\"ci\"><svg class=\"ic \"><use href=\"#phone2\"/></svg></span>Gajet</h3><ul>\n  <li>Adapter universal</li><li>Power bank (dalam beg tangan, bukan bagasi)</li><li>Kad SIM / eSIM data</li><li>Kabel pengecas cadangan</li></ul></div>\n <div><h3><span class=\"ci\"><svg class=\"ic \"><use href=\"#sun\"/></svg></span>Pakaian</h3><ul>\n  <li>Ikut musim destinasi</li><li>Kasut berjalan yang selesa</li><li>Pakaian berlapis untuk cuaca sejuk</li><li>Tudung / topi lebih</li></ul></div>\n <div><h3><span class=\"ci\"><svg class=\"ic \"><use href=\"#coin\"/></svg></span>Kewangan</h3><ul>\n  <li>Kad debit pelbagai mata wang</li><li>Sedikit tunai mata wang tempatan</li><li>Maklumkan bank tentang perjalanan</li><li>Simpan nombor kecemasan bank</li></ul></div>\n</div>\n\n<h2><span class=\"n\">1</span>Asingkan dokumen penting</h2>\n<p>Simpan pasport, tiket dan dompet dalam satu beg kecil yang sentiasa dibawa. Jangan letak dokumen penting dalam bagasi yang didaftar masuk.</p>\n\n<h2><span class=\"n\">2</span>Semak had bagasi syarikat penerbangan</h2>\n<p>Setiap syarikat penerbangan berbeza. Timbang beg di rumah dan tinggalkan ruang kira-kira 3 hingga 5 kg untuk ole-ole.</p>\n<div class=\"tip\"><svg class=\"ic \"><use href=\"#info\"/></svg><div><b>Tip JJT:</b> Pelanggan pakej JJT akan menerima senarai semak khusus mengikut destinasi dan musim, termasuk taklimat sebelum berlepas bersama tour leader.</div></div>"
+  }
+ ],
+ "tetapan": {
+  "wa": "60123316486",
+  "wa_papar": "012-331 6486",
+  "emel": "info@jalanjalantravel.com",
+  "alamat": "No. 5, Pusat Perdagangan Hillpark 11/1A, Persiaran Hillpark, Bandar Hillpark, 42300 Puncak Alam, Selangor",
+  "fb": "https://www.facebook.com/share/18NzmUhzx5/",
+  "ig": "https://instagram.com/jalanjalantravel_",
+  "tt": "https://www.tiktok.com/@jalanjalantravel",
+  "site_url": "https://jalantravel.com"
+ }
+}
